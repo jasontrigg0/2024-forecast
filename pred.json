@@ -1,0 +1,404 @@
+{
+    "odds": {
+        "harris": 0.46465,
+        "trump": 0.53535
+    },
+    "ec_votes": {
+        "harris": 268.88095,
+        "trump": 269.11905
+    },
+    "state": {
+        "California": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.8211135036642313e-14,
+            "normed_value": 1.8112380378323994e-13
+        },
+        "Texas": {
+            "harris": 0.02485,
+            "trump": 0.97515,
+            "tipping_point": 0.04013,
+            "raw_value": 0.08202019581838804,
+            "normed_value": 0.5265938373049158
+        },
+        "Florida": {
+            "harris": 0.09113,
+            "trump": 0.90887,
+            "tipping_point": 0.10422,
+            "raw_value": 0.2277968370313725,
+            "normed_value": 1.4625228499074134
+        },
+        "New York": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 5.344443209347988e-09,
+            "normed_value": 3.4312900984781725e-08
+        },
+        "Illinois": {
+            "harris": 0.99999,
+            "trump": 1e-05,
+            "tipping_point": 6e-05,
+            "raw_value": 4.438790541234671e-05,
+            "normed_value": 0.0002849834386249418
+        },
+        "Pennsylvania": {
+            "harris": 0.46998,
+            "trump": 0.53002,
+            "tipping_point": 0.19777,
+            "raw_value": 0.7035251282364078,
+            "normed_value": 4.516838727607465
+        },
+        "Ohio": {
+            "harris": 0.00382,
+            "trump": 0.99618,
+            "tipping_point": 0.00609,
+            "raw_value": 0.01906962959261385,
+            "normed_value": 0.12243264385021879
+        },
+        "Georgia": {
+            "harris": 0.37153,
+            "trump": 0.62847,
+            "tipping_point": 0.14088,
+            "raw_value": 0.6956799304225486,
+            "normed_value": 4.466470244821058
+        },
+        "North Carolina": {
+            "harris": 0.21615,
+            "trump": 0.78385,
+            "tipping_point": 0.11047,
+            "raw_value": 0.4880762422772219,
+            "normed_value": 3.1335933638493634
+        },
+        "Michigan": {
+            "harris": 0.64883,
+            "trump": 0.35117,
+            "tipping_point": 0.12387,
+            "raw_value": 0.571263303631048,
+            "normed_value": 3.667678821892247
+        },
+        "New Jersey": {
+            "harris": 0.99999,
+            "trump": 1e-05,
+            "tipping_point": 5e-05,
+            "raw_value": 0.00015363192845959064,
+            "normed_value": 0.000986362272521579
+        },
+        "Virginia": {
+            "harris": 0.99248,
+            "trump": 0.00752,
+            "tipping_point": 0.0071,
+            "raw_value": 0.03147805411859874,
+            "normed_value": 0.20209838740092995
+        },
+        "Washington": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.559621300151064e-06,
+            "normed_value": 1.6433523341964105e-05
+        },
+        "Arizona": {
+            "harris": 0.37791,
+            "trump": 0.62209,
+            "tipping_point": 0.0923,
+            "raw_value": 0.6956950102066326,
+            "normed_value": 4.466567061480507
+        },
+        "Indiana": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 4.537288581090189e-06,
+            "normed_value": 2.913073031630586e-05
+        },
+        "Massachusetts": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 1.3144098311234745e-18,
+            "normed_value": 8.438898613400312e-18
+        },
+        "Tennessee": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 3.154056208996651e-11,
+            "normed_value": 2.0249970700491608e-10
+        },
+        "Colorado": {
+            "harris": 0.99954,
+            "trump": 0.00046,
+            "tipping_point": 0.00056,
+            "raw_value": 0.002288200931533897,
+            "normed_value": 0.014690924558741185
+        },
+        "Maryland": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.0066975505726404e-18,
+            "normed_value": 1.2883589863723761e-17
+        },
+        "Minnesota": {
+            "harris": 0.94554,
+            "trump": 0.05446,
+            "tipping_point": 0.02519,
+            "raw_value": 0.1893494024956911,
+            "normed_value": 1.2156789856047263
+        },
+        "Missouri": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 8.72020562494833e-06,
+            "normed_value": 5.598629089227284e-05
+        },
+        "Wisconsin": {
+            "harris": 0.41389,
+            "trump": 0.58611,
+            "tipping_point": 0.09307,
+            "raw_value": 0.7359347907742424,
+            "normed_value": 4.724918315704834
+        },
+        "Alabama": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 3.5328414517983985e-13,
+            "normed_value": 2.26818836279261e-12
+        },
+        "South Carolina": {
+            "harris": 0.00011,
+            "trump": 0.99989,
+            "tipping_point": 0.00026,
+            "raw_value": 0.0010786085248983101,
+            "normed_value": 0.00692498471149296
+        },
+        "Kentucky": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 8.332528738392844e-14,
+            "normed_value": 5.349729099061803e-13
+        },
+        "Louisiana": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 1.1337488462125672e-07,
+            "normed_value": 7.279001830098656e-07
+        },
+        "Oregon": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 5e-05,
+            "raw_value": 0.00017185007816626995,
+            "normed_value": 0.0011033281644816286
+        },
+        "Connecticut": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 7.666709910269671e-07,
+            "normed_value": 4.922253782582932e-06
+        },
+        "Oklahoma": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 3.388221607895812e-21,
+            "normed_value": 2.1753381595088627e-20
+        },
+        "Arkansas": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 3.1730206808268595e-15,
+            "normed_value": 2.037172820050591e-14
+        },
+        "Iowa": {
+            "harris": 0.00358,
+            "trump": 0.99642,
+            "tipping_point": 0.00242,
+            "raw_value": 0.020222426934573712,
+            "normed_value": 0.12983394263865028
+        },
+        "Kansas": {
+            "harris": 1e-05,
+            "trump": 0.99999,
+            "tipping_point": 2e-05,
+            "raw_value": 4.368649093229597e-05,
+            "normed_value": 0.00028048015088092077
+        },
+        "Mississippi": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 1e-05,
+            "raw_value": 3.0192218315158726e-06,
+            "normed_value": 1.9384294246908885e-05
+        },
+        "Nevada": {
+            "harris": 0.61069,
+            "trump": 0.38931,
+            "tipping_point": 0.03919,
+            "raw_value": 0.7312389763146322,
+            "normed_value": 4.6947698025138465
+        },
+        "Utah": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 4.642016079541269e-09,
+            "normed_value": 2.980311173079079e-08
+        },
+        "New Mexico": {
+            "harris": 0.99598,
+            "trump": 0.00402,
+            "tipping_point": 0.00193,
+            "raw_value": 0.03817465319925897,
+            "normed_value": 0.24509252770493134
+        },
+        "Hawaii": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 3.117001431414632e-14,
+            "normed_value": 2.0012068104396844e-13
+        },
+        "Idaho": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 6.683240286008609e-18,
+            "normed_value": 4.290837290406805e-17
+        },
+        "Montana": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 5.473316941999649e-06,
+            "normed_value": 3.514030834132002e-05
+        },
+        "New Hampshire": {
+            "harris": 0.95217,
+            "trump": 0.04783,
+            "tipping_point": 0.00926,
+            "raw_value": 0.2520873970494467,
+            "normed_value": 1.6184754062573876
+        },
+        "Rhode Island": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 4.346169814427283e-07,
+            "normed_value": 2.7903691491126175e-06
+        },
+        "West Virginia": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 5.234235801496114e-29,
+            "normed_value": 3.3605336936426506e-28
+        },
+        "Alaska": {
+            "harris": 0.00056,
+            "trump": 0.99944,
+            "tipping_point": 0.00037,
+            "raw_value": 0.009608382288921406,
+            "normed_value": 0.06168864691592678
+        },
+        "Delaware": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 4.920981048527872e-06,
+            "normed_value": 3.1594149072588606e-05
+        },
+        "District of Columbia": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.2429002403245014e-126,
+            "normed_value": 1.440008076620329e-125
+        },
+        "North Dakota": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 6.004777642718227e-21,
+            "normed_value": 3.8552442718417094e-20
+        },
+        "South Dakota": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.2220579763019754e-13,
+            "normed_value": 1.42662672867275e-12
+        },
+        "Vermont": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.9724882261921476e-20,
+            "normed_value": 1.9084250723323484e-19
+        },
+        "Wyoming": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 8.331288917211413e-35,
+            "normed_value": 5.348933097312493e-34
+        },
+        "Nebraska": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 7.990196422709748e-09,
+            "normed_value": 5.129941660187358e-08
+        },
+        "Maine": {
+            "harris": 0.98399,
+            "trump": 0.01601,
+            "tipping_point": 0.00202,
+            "raw_value": 0.04211059102578381,
+            "normed_value": 0.27036240889434715
+        },
+        "ME-1": {
+            "harris": 1.0,
+            "trump": 0.0,
+            "tipping_point": 0.0,
+            "raw_value": 2.108450764992916e-09,
+            "normed_value": 1.3536875497890343e-08
+        },
+        "ME-2": {
+            "harris": 0.00655,
+            "trump": 0.99345,
+            "tipping_point": 0.00047,
+            "raw_value": 0.015219444217363482,
+            "normed_value": 0.09771331867843201
+        },
+        "NE-1": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 9.744873273728534e-06,
+            "normed_value": 6.256495927692457e-05
+        },
+        "NE-2": {
+            "harris": 0.92308,
+            "trump": 0.07692,
+            "tipping_point": 0.00224,
+            "raw_value": 0.15238143508092217,
+            "normed_value": 0.9783337363759754
+        },
+        "NE-3": {
+            "harris": 0.0,
+            "trump": 1.0,
+            "tipping_point": 0.0,
+            "raw_value": 7.8292066205733e-52,
+            "normed_value": 5.0265814611191854e-51
+        }
+    }
+}
