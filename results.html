@@ -10,6 +10,7 @@
    let predJsonGlobal;
    let currentState; //most recently clicked
    let currentMapType = "State Odds";
+   let currentBiasMode = "No Bias";
    
    function getCategoryName(categoryText) {
      categoryText = categoryText || $('div#category-buttons button.active').text();
@@ -33,13 +34,13 @@
    function setSummaryInfo() {
      let categoryName = getCategoryName();
 
-     let demOdds = predJsonGlobal["odds"]["harris"];
-     let repOdds = predJsonGlobal["odds"]["trump"];
+     let demOdds = predJsonGlobal[currentBiasMode]["odds"]["DEM"];
+     let repOdds = predJsonGlobal[currentBiasMode]["odds"]["REP"];
      $('#dem-vote-cnt').text(Math.round(demOdds*100)+"%");
      $('#rep-vote-cnt').text(Math.round(repOdds*100)+"%");
 
-     let demCnt = predJsonGlobal["ec_votes"]["harris"];
-     let repCnt = predJsonGlobal["ec_votes"]["trump"];
+     let demCnt = predJsonGlobal[currentBiasMode]["ec_votes"]["DEM"];
+     let repCnt = predJsonGlobal[currentBiasMode]["ec_votes"]["REP"];
      //update progress bar
      let total = 1e-6;
      let updates = {
@@ -75,18 +76,18 @@
    function computeZ() {
      return statesJsonGlobal.features.map(x => {
        let stateName = `${x.properties.name}`;
-       if (!predJsonGlobal["state"][stateName]) {
+       if (!predJsonGlobal[currentBiasMode]["state"][stateName]) {
          console.log(`Warning, couldn't find ${stateName} in input data`);
          return 0;
        }
        if (currentMapType === "State Odds") {
-         let rep = predJsonGlobal["state"][stateName]["trump"];
-         let dem = predJsonGlobal["state"][stateName]["harris"];
+         let rep = predJsonGlobal[currentBiasMode]["state"][stateName]["REP"];
+         let dem = predJsonGlobal[currentBiasMode]["state"][stateName]["DEM"];
          return (100 * (rep - dem) / (rep + dem + 1e-6)).toFixed(1);
        } else if (currentMapType === "Vote Value") {
-         return predJsonGlobal["state"][stateName]["normed_value"];
+         return predJsonGlobal[currentBiasMode]["state"][stateName]["normed_value"];
        } else if (currentMapType === "Tipping Point Odds") {
-         return predJsonGlobal["state"][stateName]["tipping_point"] * 100;
+         return predJsonGlobal[currentBiasMode]["state"][stateName]["tipping_point"] * 100;
        } else {
          console.log("unknown map state");
        }
@@ -96,19 +97,19 @@
    function computeText() {
      return statesJsonGlobal.features.map(x => {
        let stateName = `${x.properties.name}`;
-       if (!predJsonGlobal["state"][stateName]) {
+       if (!predJsonGlobal[currentBiasMode]["state"][stateName]) {
          console.log(`Warning, couldn't find ${stateName} in input data`);
          return 0;
        }
        if (currentMapType === "State Odds") {
-         let rep = Math.round(100*predJsonGlobal["state"][stateName]["trump"]);
-         let dem = Math.round(100*predJsonGlobal["state"][stateName]["harris"]);
+         let rep = Math.round(100*predJsonGlobal[currentBiasMode]["state"][stateName]["REP"]);
+         let dem = Math.round(100*predJsonGlobal[currentBiasMode]["state"][stateName]["DEM"]);
          return `${rep}% Trump, ${dem}% Harris`;
        } else if (currentMapType === "Vote Value") {
-         let weight = predJsonGlobal["state"][stateName]["normed_value"];
+         let weight = predJsonGlobal[currentBiasMode]["state"][stateName]["normed_value"];
          return `${Math.round(weight*100)/100} times the average vote`;
        } else if (currentMapType === "Tipping Point Odds") {
-         let weight = predJsonGlobal["state"][stateName]["tipping_point"];
+         let weight = predJsonGlobal[currentBiasMode]["state"][stateName]["tipping_point"];
          return `${Math.round(weight*1000)/10}% chance to be tipping point state`;
        }
      });
@@ -181,6 +182,7 @@
      $('div.map-control button').click(function() {
        $(this).addClass('active').siblings().removeClass('active');
        currentMapType = $('div#count-buttons button.active').text();
+       currentBiasMode = $('div#bias-buttons button.active').text();
        updateData();
      });
    }
@@ -192,8 +194,9 @@
     <div style="color: white; margin-right: 10px"><h3 style="margin-bottom: 0">2024 Presidential Election Projections</h3></div>
   </nav>
   <div style='display: flex; flex-direction: column; width: 100%; align-items: center; padding-top: 30px'>
-    <div style="width: 700px; margin-top: 0px; margin-bottom: 20px; text-align: center">
-        <span>Projections based on polling stats from 538</span>
+    <div style="width: 1000px; margin-top: 0px; margin-bottom: 20px; text-align: center">
+      <p>Projections based on polling stats from 538.</p>
+      <p style="text-align:left">One critical question: do the polling averages lean left, or even have a specific anti-Trump bias? The last two elections have seen a 3-4% margin surprise in favor of the Republicans. Toggle between "No Bias", "2%", "4%", "Blend" to see how a given bias impacts projections.</p>
     </div>
     <div style="height: 80px; display: flex; align-items: center">
       <div style="margin-right: 15px"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Republican_Disc.svg/100px-Republican_Disc.svg.png" style="width: 75px"></img></div>
@@ -212,6 +215,12 @@
         <button type="button" class="btn btn-outline-secondary active">State Odds</button>
         <button type="button" class="btn btn-outline-secondary">Vote Value</button>
         <button type="button" class="btn btn-outline-secondary">Tipping Point Odds</button>
+      </div>
+      <div id="bias-buttons" class="btn-group map-control" style="margin: 0 15px">
+        <button type="button" class="btn btn-outline-secondary active">No Bias</button>
+        <button type="button" class="btn btn-outline-secondary">2%</button>
+        <button type="button" class="btn btn-outline-secondary">4%</button>
+        <button type="button" class="btn btn-outline-secondary">Blend</button>
       </div>
     <div id='stateMap'><!-- Plotly chart will be drawn inside this DIV --></div>
     <div style="display: flex; flex-direction: column; max-width: 100%; padding: 0px 10px">
