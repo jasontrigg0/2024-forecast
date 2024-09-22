@@ -479,4 +479,8 @@ def calculate_projection(year, is_election_day = False):
 if __name__ == "__main__":
     #calculate_daily_national_average(2024)
     #evaluate_historical(2016)
+
+    
+    #calculate_projection(2016, True)
+    #calculate_projection(2020, True)
     calculate_projection(2024, False)
