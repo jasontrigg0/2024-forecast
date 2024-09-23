@@ -172,7 +172,7 @@
      Plotly.d3.json('pred.json', function(predJson) {
        statesJsonGlobal = statesJson;
        predJsonGlobal = predJson;
-       //$('span#update-time').html(` <i>Last updated: ${predJsonGlobal["time"]}</i>.`);
+       $('span#update-time').html(` <i>Last updated: ${predJsonGlobal["time"]}</i>.`);
        setSummaryInfo();
        drawPlot();
      });
@@ -195,7 +195,7 @@
   </nav>
   <div style='display: flex; flex-direction: column; width: 100%; align-items: center; padding-top: 30px'>
     <div style="width: 1000px; margin-top: 0px; margin-bottom: 20px; text-align: center">
-      <p>Projections based on polling stats from 538.</p>
+      <p>Projections based on polling stats from 538.<span id="update-time"></span></p>
       <p style="text-align:left">One critical question: do the polling averages lean left, or even have a specific anti-Trump bias? The last two elections have seen a 3-4% margin surprise in favor of the Republicans. Toggle between "No Bias", "2%", "4%", "Blend" to see how a given bias impacts projections.</p>
     </div>
     <div style="height: 80px; display: flex; align-items: center">

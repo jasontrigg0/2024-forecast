@@ -5,6 +5,7 @@ import math
 import json
 import scipy.stats
 import random
+import urllib.request
 
 #need an estimate of how reliable polls are over time
 #estimate of polling errors overall
@@ -446,6 +447,8 @@ def evaluate_historical(year):
     
 
 def calculate_projection(year, is_election_day = False):
+    urllib.request.urlretrieve("https://projects.fivethirtyeight.com/polls/data/president_polls.csv", "president_polls.csv")
+    
     election_date = ELECTION_INFO[year]["election_date"]
     election_datetime = datetime.datetime.strptime(election_date, "%m/%d/%y").replace(hour=0, minute=0, second=0, microsecond=0)
 
@@ -471,7 +474,9 @@ def calculate_projection(year, is_election_day = False):
 
         mode_results = postprocess_simulations(all_simulations)
         pred[trump_bias_mode] = mode_results
-        
+
+    pred["time"] = datetime.datetime.now().strftime("%-I:%M %p ET, %B %-d, %Y")
+    
     with open('pred.json', 'w', encoding='utf-8') as f:
         json.dump(pred, f, ensure_ascii=False, indent=4)
         
