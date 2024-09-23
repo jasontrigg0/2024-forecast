@@ -339,8 +339,8 @@ def simulate_election_outcomes(margins, days_to_election, sim_cnt, trump_bias_mo
         
         DEBUG_TIES = False
         if DEBUG_TIES and abs(simulation_results["DEM"] - simulation_results["REP"]) < 1:
-            print([(x,ec_results[x]) for x in ec_results if abs(ec_results[x]) < 0.1])
-            raise
+            print(sorted([(x,ec_results[x]) for x in ec_results if 0 < ec_results[x] < 0.1]))
+            print(sorted([(x,ec_results[x]) for x in ec_results if -0.1 < ec_results[x] < 0]))
 
         #calculate tipping point region
         sorted_ec_results = sorted([x for x in ec_results], key = lambda x: -1*ec_results[x])
