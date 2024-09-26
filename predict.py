@@ -233,6 +233,20 @@ def postprocess_simulations(all_simulations):
         pred["state"][ec_region]["DEM"] = len([x for x in all_simulations if x["ec_results"][ec_region] > 0]) / sim_cnt
         pred["state"][ec_region]["REP"] = len([x for x in all_simulations if x["ec_results"][ec_region] < 0]) / sim_cnt
 
+        #calculate for each party conditional chance of winning the election given they win this region
+        dem_win_cnt = len([x for x in all_simulations if x["ec_results"][ec_region] > 0])
+        rep_win_cnt = len([x for x in all_simulations if x["ec_results"][ec_region] < 0])
+
+        if dem_win_cnt == 0:
+            pred["state"][ec_region]["dem_cond"] = 1
+        else:
+            pred["state"][ec_region]["dem_cond"] = len([x for x in all_simulations if x["ec_margin"] > 0 and x["ec_results"][ec_region] > 0]) / dem_win_cnt
+
+        if rep_win_cnt == 0:
+            pred["state"][ec_region]["rep_cond"] = 1
+        else:
+            pred["state"][ec_region]["rep_cond"] = len([x for x in all_simulations if x["ec_margin"] < 0 and x["ec_results"][ec_region] < 0]) / rep_win_cnt
+
         #critical regions are those that the winning party had to carry or else would have lost the election
         carried_by_winner = lambda sim: sim["ec_margin"] * sim["ec_results"][ec_region] >= 0
         is_critical_region = lambda sim: carried_by_winner(sim) and abs(sim["ec_margin"]) < 2*ELECTORAL_COLLEGE_INFO[ec_region]["ev"]
@@ -256,7 +270,7 @@ def postprocess_simulations(all_simulations):
 
         # if pred["state"][ec_region]["normed_value"] > 0.5:
         #     print(ec_region, pred["state"][ec_region]["normed_value"])
-    
+        
     return pred
 
 def calculate_daily_national_average(year):
