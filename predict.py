@@ -353,6 +353,7 @@ def simulate_election_outcomes(margins, days_to_election, sim_cnt, trump_bias_mo
         
         DEBUG_TIES = False
         if DEBUG_TIES and abs(simulation_results["DEM"] - simulation_results["REP"]) < 1:
+            print("Tie")
             print(sorted([(x,ec_results[x]) for x in ec_results if 0 < ec_results[x] < 0.1]))
             print(sorted([(x,ec_results[x]) for x in ec_results if -0.1 < ec_results[x] < 0]))
 
@@ -460,7 +461,7 @@ def evaluate_historical(year):
     print(swing_natl_err_avg / swing_cnt)
     
 
-def calculate_projection(year, is_election_day = False):
+def calculate_projection(year, is_election_day = False, yyyymmdd = None):
     urllib.request.urlretrieve("https://projects.fivethirtyeight.com/polls/data/president_polls.csv", "president_polls.csv")
     
     election_date = ELECTION_INFO[year]["election_date"]
@@ -470,6 +471,8 @@ def calculate_projection(year, is_election_day = False):
 
     if is_election_day:
         test_datetime = election_datetime
+    elif yyyymmdd:
+        test_datetime = datetime.datetime.strptime(yyyymmdd, '%Y%m%d').replace(hour=0, minute=0, second=0, microsecond=0)
     else:
         test_datetime = datetime.datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
     
