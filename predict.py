@@ -397,12 +397,10 @@ def simulate_election_outcomes(margins, days_to_election, sim_cnt, trump_bias_mo
         trump_error = 0
         if trump_bias_mode == "No Bias":
             trump_error = 0
-        elif trump_bias_mode == "2%":
-            trump_error = -0.02
-        elif trump_bias_mode == "4%":
-            trump_error = -0.04
-        elif trump_bias_mode == "Blend":
-            trump_error = float(numpy.random.normal(-0.02, .02, 1))
+        elif trump_bias_mode == "1.5%":
+            trump_error = -0.015
+        elif trump_bias_mode == "3%":
+            trump_error = -0.03
         else:
             raise
             
@@ -575,7 +573,7 @@ def calculate_projection(year, is_election_day = False, yyyymmdd = None):
     manifold_info = get_manifold_data()
     pred["manifold_info"] = manifold_info
 
-    for trump_bias_mode in ["No Bias", "2%", "4%", "Blend"]:
+    for trump_bias_mode in ["No Bias", "1.5%", "3%"]:
         SIMULATION_CNT = 10000 #100000
         all_simulations = simulate_election_outcomes(margins, days_before_election, SIMULATION_CNT, trump_bias_mode)
 
