@@ -29,11 +29,26 @@
        //setPrecinctInfo(); #TODO: replace with state info
      }
      setSummaryInfo();
+     setManifoldInfo();
    }
 
-   function setSummaryInfo() {
-     let categoryName = getCategoryName();
+   function setManifoldInfo() {
+     $("#manifold-odds tr").remove();
+     $("#manifold-odds").append("<tr><th>Market</th><th>Manifold Odds</th><th>Model Odds</th></tr>");
 
+     for (let market in predJsonGlobal["manifold_info"]) {
+       const question = predJsonGlobal["manifold_info"][market]["question"];
+       const url = predJsonGlobal["manifold_info"][market]["url"];
+       const marketOddsRaw = predJsonGlobal["manifold_info"][market]["prob"];
+       const marketOdds = Math.round(marketOddsRaw*100)+"%";
+       const modelOddsRaw = predJsonGlobal[currentBiasMode]["manifold"][question];
+       const modelOdds = Math.round(modelOddsRaw*100)+"%";
+       const link = `<a href="${url}">${question}</a>`;
+       $('#manifold-odds').append(`<tr><td>${link}</td><td>${marketOdds}</td><td>${modelOdds}</td></tr>`);
+     }
+   }
+   
+   function setSummaryInfo() {
      let demOdds = predJsonGlobal[currentBiasMode]["odds"]["DEM"];
      let repOdds = predJsonGlobal[currentBiasMode]["odds"]["REP"];
      $('#dem-vote-cnt').text(Math.round(demOdds*100)+"%");
@@ -198,6 +213,7 @@
        $('span#update-time').html(` <i>Last updated: ${predJsonGlobal["time"]}</i>.`);
        setSummaryInfo();
        drawPlot();
+       setManifoldInfo();
      });
    });
 
@@ -260,7 +276,10 @@
       </div>
     <div id='stateMap'><!-- Plotly chart will be drawn inside this DIV --></div>
     <div style="display: flex; flex-direction: column; max-width: 100%; padding: 0px 10px">
-      <table class="table table-striped" id="data-table" style="min-width: 1000px">
+      <p>Compare against Manifold Markets betting odds!</p>
+      <table class="table table-striped" id="manifold-odds" style="min-width: 1000px">
+        <tr>
+        </tr>
       </table>
     </div>
   </div>

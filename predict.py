@@ -6,6 +6,7 @@ import json
 import scipy.stats
 import random
 import urllib.request
+import requests
 
 #need an estimate of how reliable polls are over time
 #estimate of polling errors overall
@@ -102,6 +103,45 @@ ELECTORAL_COLLEGE_INFO = {
 ALL_STATES = [x for x in ELECTORAL_COLLEGE_INFO if not ELECTORAL_COLLEGE_INFO[x].get("type") == "district"]
 ALL_DISTRICTS = [x for x in ELECTORAL_COLLEGE_INFO if ELECTORAL_COLLEGE_INFO[x].get("type") == "district"]
 
+ALL_MANIFOLD_MARKETS = [
+    "Will Trump win the popular vote in the 2024 Election?",
+    "Will Kamala Harris flip a state?",
+    "If Trump is elected President in 2024, will he have won the popular vote?",
+    "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ",
+    "Will Kamala Harris win all six swing states?",
+    "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?",
+    "Will the 2024 presidential election feature an upset in a state?",
+    "Will Kamala Harris win any non-swing Trump state?",
+    "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?",
+    "Will Pennsylvania decide the election?",
+    "Someone sweeps seven swing states?",
+    "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?",
+    "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?",
+    "Will Kamala Harris win the New York State Presidential Election by at least 20%?",
+    "Will Texas be closer than Florida in the 2024 election?",
+    "Will both Kamala Harris and Donald Trump flip a state?"
+]
+
+def get_manifold_data():
+    r = requests.get("https://api.manifold.markets/search-markets-full?term=&filter=open&sort=most-popular&contractType=ALL&offset=0&limit=1000&topicSlug=us-politics&isPrizeMarket=0&marketTier=00000&forYou=1&token=MANA")
+    market_info = r.json()
+
+    output = []
+    
+    for question in ALL_MANIFOLD_MARKETS:
+        manifold_data = [m for m in market_info if m["question"] == question]
+        if not manifold_data:
+            print(question)
+            raise
+        manifold_data = manifold_data[0]
+        output.append({
+            "question": question,
+            "url": f"https://manifold.markets/{manifold_data['creatorName']}/{manifold_data['slug']}",
+            "prob": manifold_data["prob"]
+        })
+    return output
+        
+
 def group_by(l, fn):
     m = {}
     for x in l:
@@ -194,19 +234,19 @@ def calculate_polling_averages(year, test_datetime, halflife):
 def calculate_margins(polling_averages, year):
     margins = {}
     national_margin = (polling_averages["national"]["DEM"]["avg"] - polling_averages["national"]["REP"]["avg"]) / 100
-    
     #test sensitivity to adjusting margins slightly
     #national_margin += -0.007 #0.0025
+    
+    margins["national"] = national_margin
+    
     print(national_margin)
     
     prev_offset_field = ELECTION_INFO[year]["prev_offset"]
     
     for region in ELECTORAL_COLLEGE_INFO:
-        if region == "national": continue
-
         prev_offset_pred = ELECTORAL_COLLEGE_INFO[region][prev_offset_field]
         if not region in polling_averages:
-            margins[region] = prev_offset_pred
+            margins[region] = national_margin + prev_offset_pred
         else:
             state_margin_pred = (polling_averages[region]["DEM"]["avg"] - polling_averages[region]["REP"]["avg"]) / 100
             normed_weight = polling_averages[region]["DEM"]["weight"] / BASELINE_WEIGHT
@@ -214,7 +254,7 @@ def calculate_margins(polling_averages, year):
             margins[region] = national_margin + ((normed_weight) * state_offset_pred + 1*prev_offset_pred) / (normed_weight + 1)
     return margins
 
-def postprocess_simulations(all_simulations):
+def postprocess_simulations(all_simulations, manifold_info):
     pred = {}
 
     sim_cnt = len(all_simulations)
@@ -270,9 +310,55 @@ def postprocess_simulations(all_simulations):
 
         # if pred["state"][ec_region]["normed_value"] > 0.5:
         #     print(ec_region, pred["state"][ec_region]["normed_value"])
+
+    pred["manifold"] = calculate_manifold_markets(all_simulations, manifold_info)
         
     return pred
 
+def calculate_manifold_markets(all_simulations, manifold_info):
+    sim_cnt = len(all_simulations)
+
+    state_flip = lambda x, state: (x["ec_results"][state] * (ELECTORAL_COLLEGE_INFO[state]["offset2020"] + ELECTION_INFO[2020]["national_margin"])) < 0
+    dem_flip = lambda x, state: (x["ec_results"][state] > 0) and state_flip(x, state)
+    rep_flip = lambda x, state: (x["ec_results"][state] < 0) and state_flip(x, state)
+    SWING_STATES = ["Nevada","Arizona","Georgia","North Carolina","Pennsylvania","Michigan","Wisconsin"]
+
+    market_conditions = {
+        "Will Trump win the popular vote in the 2024 Election?": lambda x: x["national"] < 0,
+        "Will Kamala Harris flip a state?": lambda x: any(dem_flip(x, state) for state in ALL_STATES),
+        "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": lambda x: x["ec_results"]["Florida"] < -0.08,
+        "Will Kamala Harris win all six swing states?": lambda x: all(x["ec_results"][state] > 0 for state in SWING_STATES if state != "North Carolina"),
+        "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": lambda x: all(x["ec_results"][state] > 0 for state in SWING_STATES), 
+        "Will the 2024 presidential election feature an upset in a state?": lambda x: any(state_flip(x, state) for state in ALL_STATES if state not in SWING_STATES),
+        "Will Kamala Harris win any non-swing Trump state?": lambda x: any(dem_flip(x, state) for state in ALL_STATES if state not in SWING_STATES),
+        "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": lambda x: (x["ec_margin"] * x["ec_results"]["Pennsylvania"]) > 0,
+        "Will Pennsylvania decide the election?": lambda x: abs(round(x["ec_margin"])) <= 2*ELECTORAL_COLLEGE_INFO["Pennsylvania"]["ev"] and (x["ec_margin"] * x["ec_results"]["Pennsylvania"]) > 0,
+        "Someone sweeps seven swing states?": lambda x: len([state for state in SWING_STATES if x["ec_results"][state] > 0]) in [0,7],
+        "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": lambda x: any([state_flip(x,state) for state in ["New Hampshire", "Minnesota", "Texas", "Florida"]]),
+        "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": lambda x: x["ec_results"]["Pennsylvania"] < 0 and x["ec_results"]["Arizona"] < 0 and x["ec_margin"] > 0 and x["national"] > 0,
+        "Will Kamala Harris win the New York State Presidential Election by at least 20%?": lambda x: abs(x["ec_results"]["New York"]) > 0.2,
+        "Will Texas be closer than Florida in the 2024 election?": lambda x: abs(x["ec_results"]["Texas"]) < abs(x["ec_results"]["Florida"]),
+        "Will both Kamala Harris and Donald Trump flip a state?": lambda x: any(dem_flip(x, state) for state in ALL_STATES) and any(rep_flip(x,state) for state in ALL_STATES),
+    }
+
+    market_custom_conditions = {
+        "If Trump is elected President in 2024, will he have won the popular vote?": lambda all_simulations: len([x for x in all_simulations if x["ec_margin"]<0 and x["national"]<0]) / len([x for x in all_simulations if x["ec_margin"]<0]),
+    }
+    
+    output = {}
+    for market in manifold_info:
+        q = market["question"]
+        if q in market_conditions:
+            fn = market_conditions[q]
+            output[q] = len([x for x in all_simulations if fn(x)]) / sim_cnt
+        elif q in market_custom_conditions:
+            fn = market_custom_conditions[q]
+            output[q] = fn(all_simulations)
+        else:
+            raise
+    return output
+    
+    
 def calculate_daily_national_average(year):
     election_date = ELECTION_INFO[year]["election_date"]
     election_datetime = datetime.datetime.strptime(election_date, "%m/%d/%y").replace(hour=0, minute=0, second=0, microsecond=0)
@@ -338,7 +424,7 @@ def simulate_election_outcomes(margins, days_to_election, sim_cnt, trump_bias_mo
             for district in districts:
                 ec_results[district] = margins[district] + total_error
                     
-        simulation_results = {"DEM": 0, "REP": 0, "ec_results": ec_results}
+        simulation_results = {"DEM": 0, "REP": 0, "ec_results": ec_results, "national": margins["national"] + poll_swing_error + national_polling_error + trump_error}
         for res in ec_results:
             if ec_results[res] > 0:
                 simulation_results["DEM"] += ELECTORAL_COLLEGE_INFO[res]["ev"]
@@ -485,11 +571,15 @@ def calculate_projection(year, is_election_day = False, yyyymmdd = None):
     print(margins)
     
     pred = {}
+
+    manifold_info = get_manifold_data()
+    pred["manifold_info"] = manifold_info
+
     for trump_bias_mode in ["No Bias", "2%", "4%", "Blend"]:
         SIMULATION_CNT = 10000 #100000
         all_simulations = simulate_election_outcomes(margins, days_before_election, SIMULATION_CNT, trump_bias_mode)
 
-        mode_results = postprocess_simulations(all_simulations)
+        mode_results = postprocess_simulations(all_simulations, manifold_info)
         pred[trump_bias_mode] = mode_results
 
     pred["time"] = datetime.datetime.now().strftime("%-I:%M %p ET, %B %-d, %Y")
