@@ -111,7 +111,7 @@ ALL_MANIFOLD_MARKETS = [
     "Will Kamala Harris win all six swing states?",
     "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?",
     "Will the 2024 presidential election feature an upset in a state?",
-    "Will Kamala Harris win any non-swing Trump state?",
+    "Kamala Harris wins a non-swing Trump state?",
     "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?",
     "Will Pennsylvania decide the election?",
     "Someone sweeps seven swing states?",
@@ -127,7 +127,7 @@ def get_manifold_data():
     market_info = r.json()
 
     output = []
-    
+
     for question in ALL_MANIFOLD_MARKETS:
         manifold_data = [m for m in market_info if m["question"] == question]
         if not manifold_data:
@@ -330,7 +330,7 @@ def calculate_manifold_markets(all_simulations, manifold_info):
         "Will Kamala Harris win all six swing states?": lambda x: all(x["ec_results"][state] > 0 for state in SWING_STATES if state != "North Carolina"),
         "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": lambda x: all(x["ec_results"][state] > 0 for state in SWING_STATES), 
         "Will the 2024 presidential election feature an upset in a state?": lambda x: any(state_flip(x, state) for state in ALL_STATES if state not in SWING_STATES),
-        "Will Kamala Harris win any non-swing Trump state?": lambda x: any(dem_flip(x, state) for state in ALL_STATES if state not in SWING_STATES),
+        "Kamala Harris wins a non-swing Trump state?": lambda x: any(dem_flip(x, state) for state in ALL_STATES if state not in SWING_STATES),
         "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": lambda x: (x["ec_margin"] * x["ec_results"]["Pennsylvania"]) > 0,
         "Will Pennsylvania decide the election?": lambda x: abs(round(x["ec_margin"])) <= 2*ELECTORAL_COLLEGE_INFO["Pennsylvania"]["ev"] and (x["ec_margin"] * x["ec_results"]["Pennsylvania"]) > 0,
         "Someone sweeps seven swing states?": lambda x: len([state for state in SWING_STATES if x["ec_results"][state] > 0]) in [0,7],
