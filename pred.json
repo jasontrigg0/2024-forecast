@@ -3,22 +3,22 @@
         {
             "question": "Will Trump win the popular vote in the 2024 Election?",
             "url": "https://manifold.markets/Manifold Politics/will-donald-trump-win-the-popular-v-nkvd5qs9lh",
-            "prob": 0.3008787970153483
+            "prob": 0.3118261538639929
         },
         {
             "question": "Will Kamala Harris flip a state?",
             "url": "https://manifold.markets/bagelfan/will-kamala-harris-flip-a-state",
-            "prob": 0.4900000000000002
+            "prob": 0.4340355347708433
         },
         {
             "question": "If Trump is elected President in 2024, will he have won the popular vote?",
             "url": "https://manifold.markets/Amyg Dala/if-trump-is-elected-president-in-20",
-            "prob": 0.37586658370487025
+            "prob": 0.4734726846025402
         },
         {
             "question": "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ",
             "url": "https://manifold.markets/Ziddletwix/nate-silver-100k-twitter-bet-will-t",
-            "prob": 0.381859379725787
+            "prob": 0.516350169475955
         },
         {
             "question": "Will Kamala Harris win all six swing states?",
@@ -28,1660 +28,1660 @@
         {
             "question": "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?",
             "url": "https://manifold.markets/Luke/subsidized-10k-will-all-seven-state",
-            "prob": 0.17982489232224613
+            "prob": 0.1711611103155734
         },
         {
             "question": "Will the 2024 presidential election feature an upset in a state?",
             "url": "https://manifold.markets/Eric Neyman/will-the-2024-presidential-election-7wnpoje863",
-            "prob": 0.3200000000000001
+            "prob": 0.30000000000000004
         },
         {
             "question": "Kamala Harris wins a non-swing Trump state?",
             "url": "https://manifold.markets/JTX/will-kamala-harris-win-any-nonswing",
-            "prob": 0.11003932511774875
+            "prob": 0.10363667894158901
         },
         {
             "question": "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?",
             "url": "https://manifold.markets/Carson Gale/will-the-2024-us-presidential-candi",
-            "prob": 0.8933958516011821
+            "prob": 0.8951818820006605
         },
         {
             "question": "Will Pennsylvania decide the election [read description]?",
             "url": "https://manifold.markets/bagelfan/will-pennsylvania-decide-the-electi",
-            "prob": 0.21999999999999992
+            "prob": 0.19999999999999973
         },
         {
             "question": "Someone sweeps seven swing states?",
             "url": "https://manifold.markets/bagelfan/someone-sweeps-seven-swing-states",
-            "prob": 0.34514043444265363
+            "prob": 0.42999999999999916
         },
         {
             "question": "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?",
             "url": "https://manifold.markets/Manifold Politics/will-one-or-more-of-texas-florida-n",
-            "prob": 0.2180593174312535
+            "prob": 0.21
         },
         {
             "question": "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?",
             "url": "https://manifold.markets/chris (strutheo)/will-buccocapitals-meme-pelosi-parl",
-            "prob": 0.05936627387030513
+            "prob": 0.09669221596130768
         },
         {
             "question": "Will Kamala Harris win the New York State Presidential Election by at least 20%?",
             "url": "https://manifold.markets/Michael Edgar/will-kamala-harris-win-the-new-york",
-            "prob": 0.48182422057633045
+            "prob": 0.4943125564948705
         },
         {
             "question": "Will Texas be closer than Florida in the 2024 election?",
             "url": "https://manifold.markets/Plasma Ballin'/will-texas-be-closer-than-florida-i",
-            "prob": 0.6000000000000001
+            "prob": 0.6188707217197134
         },
         {
             "question": "Will both Kamala Harris and Donald Trump flip a state?",
             "url": "https://manifold.markets/nikki/will-both-kamala-harris-and-donald",
-            "prob": 0.2300374654429988
+            "prob": 0.2039565742628185
         }
     ],
     "No Bias": {
         "odds": {
-            "DEM": 0.4864,
-            "REP": 0.5136
+            "DEM": 0.4855,
+            "REP": 0.5145
         },
         "ec_votes": {
-            "DEM": 272.5073,
-            "REP": 265.4927
+            "DEM": 271.926,
+            "REP": 266.074
         },
         "state": {
             "California": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 6.572706720966229e-12,
-                "normed_value": 9.683605534466516e-11
+                "raw_value": 3.949618295039059e-12,
+                "normed_value": 5.7100994541196784e-11
             },
             "Texas": {
-                "DEM": 0.0709,
-                "REP": 0.9291,
-                "dem_cond": 0.9929478138222849,
-                "rep_cond": 0.5522548703045959,
-                "tipping_point": 0.0337,
-                "raw_value": 0.030937217036851365,
-                "normed_value": 0.45579974710176174
+                "DEM": 0.0646,
+                "REP": 0.9354,
+                "dem_cond": 0.9969040247678018,
+                "rep_cond": 0.5498182595680992,
+                "tipping_point": 0.0366,
+                "raw_value": 0.03276511076568217,
+                "normed_value": 0.4736965122231954
             },
             "Florida": {
-                "DEM": 0.1135,
-                "REP": 0.8865,
-                "dem_cond": 0.9850220264317181,
-                "rep_cond": 0.5774393683023125,
-                "tipping_point": 0.0631,
-                "raw_value": 0.05919161165346245,
-                "normed_value": 0.872073321593755
+                "DEM": 0.1123,
+                "REP": 0.8877,
+                "dem_cond": 0.9768477292965272,
+                "rep_cond": 0.5766587811197477,
+                "tipping_point": 0.0616,
+                "raw_value": 0.06413301138093286,
+                "normed_value": 0.9271930751822041
             },
             "New York": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 8.118386721132462e-08,
-                "normed_value": 1.1960864514603026e-06
+                "raw_value": 7.182464530112297e-08,
+                "normed_value": 1.038393680830937e-06
             },
             "Illinois": {
-                "DEM": 0.9994,
-                "REP": 0.0006,
-                "dem_cond": 0.4866920152091255,
+                "DEM": 0.9993,
+                "REP": 0.0007,
+                "dem_cond": 0.48584008806164314,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 7.366698563010353e-05,
-                "normed_value": 0.0010853398151473694
+                "raw_value": 9.251038790293046e-05,
+                "normed_value": 0.0013374545994189523
             },
             "Pennsylvania": {
-                "DEM": 0.5165,
-                "REP": 0.4835,
-                "dem_cond": 0.778702807357212,
-                "rep_cond": 0.8258531540847983,
-                "tipping_point": 0.1998,
-                "raw_value": 0.3126942708184027,
-                "normed_value": 4.606942162555398
+                "DEM": 0.5102,
+                "REP": 0.4898,
+                "dem_cond": 0.7785182281458252,
+                "rep_cond": 0.819722335647203,
+                "tipping_point": 0.2014,
+                "raw_value": 0.30672271462827233,
+                "normed_value": 4.434396122695912
             },
             "Ohio": {
-                "DEM": 0.03,
-                "REP": 0.97,
-                "dem_cond": 0.98,
-                "rep_cond": 0.5288659793814433,
-                "tipping_point": 0.0074,
-                "raw_value": 0.011405755981601816,
-                "normed_value": 0.1680416401296196
+                "DEM": 0.0258,
+                "REP": 0.9742,
+                "dem_cond": 0.9922480620155039,
+                "rep_cond": 0.5279203448983781,
+                "tipping_point": 0.0066,
+                "raw_value": 0.011891065077490947,
+                "normed_value": 0.17191323093972846
             },
             "Georgia": {
-                "DEM": 0.4061,
-                "REP": 0.5939,
-                "dem_cond": 0.8187638512681605,
-                "rep_cond": 0.7408654655665937,
-                "tipping_point": 0.1406,
-                "raw_value": 0.308791523856903,
-                "normed_value": 4.549442773520671
+                "DEM": 0.4023,
+                "REP": 0.5977,
+                "dem_cond": 0.8205319413373104,
+                "rep_cond": 0.7400033461602811,
+                "tipping_point": 0.1402,
+                "raw_value": 0.3233381359691837,
+                "normed_value": 4.674611002315736
             },
             "North Carolina": {
-                "DEM": 0.3562,
-                "REP": 0.6438,
-                "dem_cond": 0.8323975294778214,
-                "rep_cond": 0.7050326188257223,
-                "tipping_point": 0.1271,
-                "raw_value": 0.26918471421119766,
-                "normed_value": 3.9659134341325717
+                "DEM": 0.3414,
+                "REP": 0.6586,
+                "dem_cond": 0.8427065026362038,
+                "rep_cond": 0.6996659580929244,
+                "tipping_point": 0.1264,
+                "raw_value": 0.2513445354094873,
+                "normed_value": 3.6337746770121355
             },
             "Michigan": {
-                "DEM": 0.568,
-                "REP": 0.432,
-                "dem_cond": 0.7235915492957746,
-                "rep_cond": 0.825462962962963,
-                "tipping_point": 0.1313,
-                "raw_value": 0.2591032812075942,
-                "normed_value": 3.8173831184292464
+                "DEM": 0.5771,
+                "REP": 0.4229,
+                "dem_cond": 0.7132212788078323,
+                "rep_cond": 0.8252541972097422,
+                "tipping_point": 0.1361,
+                "raw_value": 0.26311732160805307,
+                "normed_value": 3.8039779093860964
             },
             "New Jersey": {
-                "DEM": 0.9982,
-                "REP": 0.0018,
-                "dem_cond": 0.48727709877780007,
+                "DEM": 0.9972,
+                "REP": 0.0028,
+                "dem_cond": 0.48686321700762136,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0003,
-                "raw_value": 0.0003461072193563068,
-                "normed_value": 0.005099217000184131
+                "raw_value": 0.0006106038996383539,
+                "normed_value": 0.008827711271207364
             },
             "Virginia": {
-                "DEM": 0.9484,
-                "REP": 0.0516,
-                "dem_cond": 0.5108603964571911,
-                "rep_cond": 0.9631782945736435,
-                "tipping_point": 0.0092,
-                "raw_value": 0.020051916873637134,
-                "normed_value": 0.29542601162291043
+                "DEM": 0.9455,
+                "REP": 0.0545,
+                "dem_cond": 0.5108408249603384,
+                "rep_cond": 0.9541284403669725,
+                "tipping_point": 0.0107,
+                "raw_value": 0.03209887299302028,
+                "normed_value": 0.4640644828527396
             },
             "Washington": {
-                "DEM": 1.0,
-                "REP": 0.0,
-                "dem_cond": 0.4864,
-                "rep_cond": 1,
-                "tipping_point": 0.0,
-                "raw_value": 5.2490674782238524e-06,
-                "normed_value": 7.733480442809774e-05
+                "DEM": 0.9999,
+                "REP": 0.0001,
+                "dem_cond": 0.48554855485548554,
+                "rep_cond": 1.0,
+                "tipping_point": 0.0001,
+                "raw_value": 1.2405659750792664e-05,
+                "normed_value": 0.00017935290369697644
             },
             "Arizona": {
-                "DEM": 0.3663,
-                "REP": 0.6337,
-                "dem_cond": 0.8110838110838111,
-                "rep_cond": 0.7012782073536373,
-                "tipping_point": 0.085,
-                "raw_value": 0.2737194209106979,
-                "normed_value": 4.032723521295577
+                "DEM": 0.3835,
+                "REP": 0.6165,
+                "dem_cond": 0.7880052151238592,
+                "rep_cond": 0.702676399026764,
+                "tipping_point": 0.0825,
+                "raw_value": 0.2727639841624147,
+                "normed_value": 3.9434430385985193
             },
             "Indiana": {
                 "DEM": 0.0001,
                 "REP": 0.9999,
                 "dem_cond": 1.0,
-                "rep_cond": 0.5136513651365137,
+                "rep_cond": 0.5145514551455146,
                 "tipping_point": 0.0,
-                "raw_value": 2.0027703705881655e-05,
-                "normed_value": 0.0002950692776695515
+                "raw_value": 1.9431541877419333e-06,
+                "normed_value": 2.809285059427712e-05
             },
             "Massachusetts": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.532022177181325e-14,
-                "normed_value": 2.2571368332250204e-13
+                "raw_value": 9.11315115491713e-17,
+                "normed_value": 1.3175197081794917e-15
             },
             "Tennessee": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 1.074250703156215e-10,
-                "normed_value": 1.5826995629220499e-09
+                "raw_value": 4.3709853854848417e-10,
+                "normed_value": 6.3192843964115944e-09
             },
             "Colorado": {
-                "DEM": 0.9909,
-                "REP": 0.0091,
-                "dem_cond": 0.4908668886870522,
+                "DEM": 0.992,
+                "REP": 0.008,
+                "dem_cond": 0.4894153225806452,
                 "rep_cond": 1.0,
-                "tipping_point": 0.0008,
-                "raw_value": 0.002836158404636767,
-                "normed_value": 0.041785280234939354
+                "tipping_point": 0.0005,
+                "raw_value": 0.002070007174917095,
+                "normed_value": 0.02992680800158445
             },
             "Maryland": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.2520730729028714e-14,
-                "normed_value": 1.8446862537837917e-13
+                "raw_value": 9.56774502472622e-15,
+                "normed_value": 1.3832419125531012e-13
             },
             "Minnesota": {
-                "DEM": 0.8599,
-                "REP": 0.1401,
-                "dem_cond": 0.5547156646121641,
-                "rep_cond": 0.9329050678087081,
-                "tipping_point": 0.0347,
-                "raw_value": 0.10301776543065629,
-                "normed_value": 1.517766493810674
+                "DEM": 0.8539,
+                "REP": 0.1461,
+                "dem_cond": 0.5531092633797868,
+                "rep_cond": 0.9096509240246407,
+                "tipping_point": 0.0313,
+                "raw_value": 0.11285693413196417,
+                "normed_value": 1.6316116390031463
             },
             "Missouri": {
-                "DEM": 0.0004,
-                "REP": 0.9996,
+                "DEM": 0.0001,
+                "REP": 0.9999,
                 "dem_cond": 1.0,
-                "rep_cond": 0.5138055222088835,
+                "rep_cond": 0.5145514551455146,
                 "tipping_point": 0.0,
-                "raw_value": 6.253297305824224e-06,
-                "normed_value": 9.213017858560731e-05
+                "raw_value": 1.4330507819789703e-05,
+                "normed_value": 0.00020718109641587465
             },
             "Wisconsin": {
-                "DEM": 0.5042,
-                "REP": 0.4958,
-                "dem_cond": 0.7376041253470845,
-                "rep_cond": 0.7690601048810004,
-                "tipping_point": 0.0976,
-                "raw_value": 0.31056292171183075,
-                "normed_value": 4.575540877087352
+                "DEM": 0.504,
+                "REP": 0.496,
+                "dem_cond": 0.7337301587301587,
+                "rep_cond": 0.7667338709677419,
+                "tipping_point": 0.097,
+                "raw_value": 0.32062878507754805,
+                "normed_value": 4.635440981590494
             },
             "Alabama": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 5.047085963835218e-12,
-                "normed_value": 7.435899949167092e-11
+                "raw_value": 1.8094609193832596e-12,
+                "normed_value": 2.6160000881601814e-11
             },
             "South Carolina": {
-                "DEM": 0.003,
-                "REP": 0.997,
+                "DEM": 0.0015,
+                "REP": 0.9985,
                 "dem_cond": 1.0,
-                "rep_cond": 0.5151454363089267,
-                "tipping_point": 0.0003,
-                "raw_value": 0.0009110278917048738,
-                "normed_value": 0.01342222482866204
+                "rep_cond": 0.515272909364046,
+                "tipping_point": 0.0001,
+                "raw_value": 0.0009526039686526343,
+                "normed_value": 0.013772124279016827
             },
             "Kentucky": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 1.0766374119720636e-12,
-                "normed_value": 1.5862159143552555e-11
+                "raw_value": 2.063792486919229e-12,
+                "normed_value": 2.9836960112767665e-11
             },
             "Louisiana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 5.927893531737578e-07,
-                "normed_value": 8.733598660130635e-06
+                "raw_value": 1.1518537441623923e-07,
+                "normed_value": 1.6652747036412897e-06
             },
             "Oregon": {
-                "DEM": 0.9973,
-                "REP": 0.0027,
-                "dem_cond": 0.48761656472475684,
-                "rep_cond": 0.9629629629629629,
-                "tipping_point": 0.0001,
-                "raw_value": 0.0005918736334717585,
-                "normed_value": 0.008720107310598767
-            },
-            "Connecticut": {
-                "DEM": 0.9998,
-                "REP": 0.0002,
-                "dem_cond": 0.48649729945989195,
+                "DEM": 0.9986,
+                "REP": 0.0014,
+                "dem_cond": 0.4861806529140797,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 4.91645621450048e-06,
-                "normed_value": 7.243442409628818e-05
+                "raw_value": 0.00024845753544650023,
+                "normed_value": 0.0035920363223630237
+            },
+            "Connecticut": {
+                "DEM": 0.9999,
+                "REP": 0.0001,
+                "dem_cond": 0.48554855485548554,
+                "rep_cond": 1.0,
+                "tipping_point": 0.0,
+                "raw_value": 2.998220762538007e-06,
+                "normed_value": 4.334631212591457e-05
             },
             "Oklahoma": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 4.0550363355144196e-18,
-                "normed_value": 5.974307689066903e-17
+                "raw_value": 3.582938158875622e-18,
+                "normed_value": 5.179977328654219e-17
             },
             "Arkansas": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 5.4478433758382895e-14,
-                "normed_value": 8.026338083348884e-13
+                "raw_value": 2.0149223228039722e-13,
+                "normed_value": 2.9130427287082275e-12
             },
             "Iowa": {
-                "DEM": 0.0203,
-                "REP": 0.9797,
-                "dem_cond": 0.9802955665024631,
-                "rep_cond": 0.5238338266816372,
-                "tipping_point": 0.0016,
-                "raw_value": 0.009306865544678685,
-                "normed_value": 0.13711857005501296
+                "DEM": 0.0162,
+                "REP": 0.9838,
+                "dem_cond": 0.9444444444444444,
+                "rep_cond": 0.5220573287253507,
+                "tipping_point": 0.0014,
+                "raw_value": 0.00803476826738705,
+                "normed_value": 0.11616141730762161
             },
             "Kansas": {
-                "DEM": 0.0005,
-                "REP": 0.9995,
-                "dem_cond": 1.0,
-                "rep_cond": 0.5138569284642321,
-                "tipping_point": 0.0,
-                "raw_value": 3.3398476680173186e-05,
-                "normed_value": 0.0004920616229402238
-            },
-            "Mississippi": {
                 "DEM": 0.0003,
                 "REP": 0.9997,
                 "dem_cond": 1.0,
-                "rep_cond": 0.5137541262378713,
+                "rep_cond": 0.5146543963188956,
                 "tipping_point": 0.0,
-                "raw_value": 6.313259932610778e-06,
-                "normed_value": 9.30136113162344e-05
+                "raw_value": 3.636685722110373e-05,
+                "normed_value": 0.0005257682035428669
+            },
+            "Mississippi": {
+                "DEM": 0.0001,
+                "REP": 0.9999,
+                "dem_cond": 1.0,
+                "rep_cond": 0.5145514551455146,
+                "tipping_point": 0.0,
+                "raw_value": 2.4082396819904995e-06,
+                "normed_value": 3.4816752066384964e-05
             },
             "Nevada": {
-                "DEM": 0.5361,
-                "REP": 0.4639,
-                "dem_cond": 0.6911024062674874,
-                "rep_cond": 0.7501616727743048,
-                "tipping_point": 0.0453,
-                "raw_value": 0.31148841488969314,
-                "normed_value": 4.589176219785165
+                "DEM": 0.536,
+                "REP": 0.464,
+                "dem_cond": 0.7029850746268657,
+                "rep_cond": 0.7657327586206897,
+                "tipping_point": 0.043,
+                "raw_value": 0.3310897429593836,
+                "normed_value": 4.786678659331825
             },
             "Utah": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 1.0788457542318974e-07,
-                "normed_value": 1.5894694773449306e-06
+                "raw_value": 4.3350770562554214e-08,
+                "normed_value": 6.267370485796787e-07
             },
             "New Mexico": {
-                "DEM": 0.9587,
-                "REP": 0.0413,
-                "dem_cond": 0.5053718577240013,
-                "rep_cond": 0.9539951573849879,
-                "tipping_point": 0.0036,
-                "raw_value": 0.03923388896161291,
-                "normed_value": 0.5780350781138582
+                "DEM": 0.962,
+                "REP": 0.038,
+                "dem_cond": 0.5034303534303535,
+                "rep_cond": 0.968421052631579,
+                "tipping_point": 0.0045,
+                "raw_value": 0.049730995408642835,
+                "normed_value": 0.7189781607311282
             },
             "Hawaii": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 3.0891893829737228e-12,
-                "normed_value": 4.551319977590895e-11
+                "raw_value": 4.046351981568794e-11,
+                "normed_value": 5.849950682614902e-10
             },
             "Idaho": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 1.3862503646300216e-16,
-                "normed_value": 2.0423704073493343e-15
+                "raw_value": 1.810475146012758e-16,
+                "normed_value": 2.6174663905952107e-15
             },
             "Montana": {
-                "DEM": 0.0001,
-                "REP": 0.9999,
+                "DEM": 0.0002,
+                "REP": 0.9998,
                 "dem_cond": 1.0,
-                "rep_cond": 0.5136513651365137,
+                "rep_cond": 0.5146029205841168,
                 "tipping_point": 0.0,
-                "raw_value": 9.808304093365489e-06,
-                "normed_value": 0.000144506292208763
+                "raw_value": 5.090568361090741e-06,
+                "normed_value": 7.359610334075508e-05
             },
             "New Hampshire": {
-                "DEM": 0.8655,
-                "REP": 0.1345,
-                "dem_cond": 0.5454650491045638,
-                "rep_cond": 0.8936802973977696,
-                "tipping_point": 0.0117,
-                "raw_value": 0.15692042684294125,
-                "normed_value": 2.3119174160014397
+                "DEM": 0.8697,
+                "REP": 0.1303,
+                "dem_cond": 0.541681039438887,
+                "rep_cond": 0.8894858019953953,
+                "tipping_point": 0.0137,
+                "raw_value": 0.17712703194322754,
+                "normed_value": 2.5607866200114926
             },
             "Rhode Island": {
-                "DEM": 0.9998,
-                "REP": 0.0002,
-                "dem_cond": 0.48649729945989195,
-                "rep_cond": 1.0,
+                "DEM": 1.0,
+                "REP": 0.0,
+                "dem_cond": 0.4855,
+                "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.2700243327160472e-05,
-                "normed_value": 0.00018711339451622932
+                "raw_value": 6.397813420798618e-06,
+                "normed_value": 9.249539624512112e-05
             },
             "West Virginia": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 9.317773575443789e-24,
-                "normed_value": 1.3727927868171943e-22
+                "raw_value": 1.1289446583743612e-25,
+                "normed_value": 1.6321542478197926e-24
             },
             "Alaska": {
-                "DEM": 0.0083,
-                "REP": 0.9917,
-                "dem_cond": 0.9879518072289156,
-                "rep_cond": 0.5177977210850055,
-                "tipping_point": 0.0004,
-                "raw_value": 0.01361808596228154,
-                "normed_value": 0.20063602134038966
+                "DEM": 0.0058,
+                "REP": 0.9942,
+                "dem_cond": 1.0,
+                "rep_cond": 0.5175015087507544,
+                "tipping_point": 0.0003,
+                "raw_value": 0.012675305034092296,
+                "normed_value": 0.1832512586010671
             },
             "Delaware": {
-                "DEM": 0.9998,
-                "REP": 0.0002,
-                "dem_cond": 0.48649729945989195,
-                "rep_cond": 1.0,
+                "DEM": 1.0,
+                "REP": 0.0,
+                "dem_cond": 0.4855,
+                "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 8.289132717349009e-05,
-                "normed_value": 0.0012212425544806346
+                "raw_value": 4.742432238154203e-05,
+                "normed_value": 0.0006856297928409329
             },
             "District of Columbia": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 9.582480179772097e-94,
-                "normed_value": 1.4117921587275027e-92
+                "raw_value": 1.4319348698655992e-104,
+                "normed_value": 2.0701976515109371e-103
             },
             "North Dakota": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 8.469174047749454e-21,
-                "normed_value": 1.2477681442796903e-19
+                "raw_value": 1.070459305880187e-17,
+                "normed_value": 1.5475999556314943e-16
             },
             "South Dakota": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 3.201259689593466e-11,
-                "normed_value": 4.71643378648343e-10
+                "raw_value": 1.8005368453881908e-11,
+                "normed_value": 2.6030982464526494e-10
             },
             "Vermont": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 2.4692920688517263e-17,
-                "normed_value": 3.638021801257502e-16
+                "raw_value": 1.3053189439316392e-16,
+                "normed_value": 1.8871446383966123e-15
             },
             "Wyoming": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 8.229272286006416e-31,
-                "normed_value": 1.2124232836862203e-29
+                "raw_value": 5.181463260644493e-33,
+                "normed_value": 7.49102022676718e-32
             },
             "Nebraska": {
-                "DEM": 0.0,
-                "REP": 1.0,
-                "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "DEM": 0.0001,
+                "REP": 0.9999,
+                "dem_cond": 1.0,
+                "rep_cond": 0.5145514551455146,
                 "tipping_point": 0.0,
-                "raw_value": 8.905867666414295e-08,
-                "normed_value": 1.312106459103319e-06
+                "raw_value": 3.7422824281599743e-08,
+                "normed_value": 5.410346837069888e-07
             },
             "Maine": {
-                "DEM": 0.9285,
-                "REP": 0.0715,
-                "dem_cond": 0.5191168551427033,
-                "rep_cond": 0.9384615384615385,
-                "tipping_point": 0.0037,
-                "raw_value": 0.036975001395198485,
-                "normed_value": 0.5447547613912331
+                "DEM": 0.9226,
+                "REP": 0.0774,
+                "dem_cond": 0.5207023628874918,
+                "rep_cond": 0.9341085271317829,
+                "tipping_point": 0.0029,
+                "raw_value": 0.04524846775662973,
+                "normed_value": 0.6541727117311933
             },
             "ME-1": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.4864,
+                "dem_cond": 0.4855,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 7.233712719625837e-08,
-                "normed_value": 1.0657469365408113e-06
+                "raw_value": 3.878506427139868e-07,
+                "normed_value": 5.607290572921556e-06
             },
             "ME-2": {
-                "DEM": 0.0286,
-                "REP": 0.9714,
-                "dem_cond": 0.9440559440559441,
-                "rep_cond": 0.5270743257154622,
-                "tipping_point": 0.0006,
-                "raw_value": 0.011858566530203287,
-                "normed_value": 0.17471292324121024
+                "DEM": 0.027,
+                "REP": 0.973,
+                "dem_cond": 0.937037037037037,
+                "rep_cond": 0.5270298047276465,
+                "tipping_point": 0.0002,
+                "raw_value": 0.002500168665968616,
+                "normed_value": 0.036145801108644446
             },
             "NE-1": {
                 "DEM": 0.0005,
                 "REP": 0.9995,
                 "dem_cond": 1.0,
-                "rep_cond": 0.5138569284642321,
+                "rep_cond": 0.5147573786893447,
                 "tipping_point": 0.0,
-                "raw_value": 1.844727743585549e-06,
-                "normed_value": 2.7178476913302605e-05
+                "raw_value": 7.707538856104628e-05,
+                "normed_value": 0.0011143054879538432
             },
             "NE-2": {
-                "DEM": 0.8363,
-                "REP": 0.1637,
-                "dem_cond": 0.5573358842520627,
-                "rep_cond": 0.87599266951741,
-                "tipping_point": 0.0021,
-                "raw_value": 0.08003472676736499,
-                "normed_value": 1.1791561010956497
+                "DEM": 0.8304,
+                "REP": 0.1696,
+                "dem_cond": 0.5569605009633911,
+                "rep_cond": 0.8643867924528302,
+                "tipping_point": 0.0026,
+                "raw_value": 0.11092567339110113,
+                "normed_value": 1.6036907360743338
             },
             "NE-3": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.5136,
+                "rep_cond": 0.5145,
                 "tipping_point": 0.0,
-                "raw_value": 8.86220336600409e-55,
-                "normed_value": 1.3056733733281378e-53
+                "raw_value": 2.367693464160703e-38,
+                "normed_value": 3.423056140439784e-37
             }
         },
         "manifold": {
-            "Will Trump win the popular vote in the 2024 Election?": 0.2344,
-            "Will Kamala Harris flip a state?": 0.4187,
-            "If Trump is elected President in 2024, will he have won the popular vote?": 0.4517133956386293,
-            "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": 0.335,
-            "Will Kamala Harris win all six swing states?": 0.1126,
-            "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": 0.0847,
-            "Will the 2024 presidential election feature an upset in a state?": 0.4627,
-            "Kamala Harris wins a non-swing Trump state?": 0.1837,
-            "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": 0.8015,
-            "Will Pennsylvania decide the election [read description]?": 0.2169,
-            "Someone sweeps seven swing states?": 0.2082,
-            "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": 0.382,
-            "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": 0.0363,
-            "Will Kamala Harris win the New York State Presidential Election by at least 20%?": 0.5459,
-            "Will Texas be closer than Florida in the 2024 election?": 0.4109,
-            "Will both Kamala Harris and Donald Trump flip a state?": 0.323
+            "Will Trump win the popular vote in the 2024 Election?": 0.2422,
+            "Will Kamala Harris flip a state?": 0.405,
+            "If Trump is elected President in 2024, will he have won the popular vote?": 0.46472303206997084,
+            "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": 0.3326,
+            "Will Kamala Harris win all six swing states?": 0.1085,
+            "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": 0.0783,
+            "Will the 2024 presidential election feature an upset in a state?": 0.4584,
+            "Kamala Harris wins a non-swing Trump state?": 0.1761,
+            "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": 0.7987,
+            "Will Pennsylvania decide the election [read description]?": 0.2189,
+            "Someone sweeps seven swing states?": 0.201,
+            "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": 0.3792,
+            "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": 0.0358,
+            "Will Kamala Harris win the New York State Presidential Election by at least 20%?": 0.5519,
+            "Will Texas be closer than Florida in the 2024 election?": 0.4017,
+            "Will both Kamala Harris and Donald Trump flip a state?": 0.3155
         }
     },
     "1.5%": {
         "odds": {
-            "DEM": 0.3288,
-            "REP": 0.6712
+            "DEM": 0.3278,
+            "REP": 0.6722
         },
         "ec_votes": {
-            "DEM": 256.3645,
-            "REP": 281.6355
+            "DEM": 256.0711,
+            "REP": 281.9289
         },
         "state": {
             "California": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.3288,
+                "dem_cond": 0.3278,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 2.1780732426798087e-12,
-                "normed_value": 3.48318603563989e-11
+                "raw_value": 1.7668846242684137e-11,
+                "normed_value": 2.785438678016589e-10
             },
             "Texas": {
-                "DEM": 0.0369,
-                "REP": 0.9631,
-                "dem_cond": 0.983739837398374,
-                "rep_cond": 0.6962932198110269,
-                "tipping_point": 0.0322,
-                "raw_value": 0.02802167166059152,
-                "normed_value": 0.44812402774559484
+                "DEM": 0.0325,
+                "REP": 0.9675,
+                "dem_cond": 0.9907692307692307,
+                "rep_cond": 0.694470284237726,
+                "tipping_point": 0.0325,
+                "raw_value": 0.027935239995380997,
+                "normed_value": 0.44039037350856197
             },
             "Florida": {
-                "DEM": 0.0649,
-                "REP": 0.9351,
-                "dem_cond": 0.9429892141756548,
-                "rep_cond": 0.7138273981392365,
-                "tipping_point": 0.0609,
-                "raw_value": 0.055981260479514065,
-                "normed_value": 0.8952552234646222
+                "DEM": 0.0578,
+                "REP": 0.9422,
+                "dem_cond": 0.9584775086505191,
+                "rep_cond": 0.7108894077690512,
+                "tipping_point": 0.058,
+                "raw_value": 0.04874712887036457,
+                "normed_value": 0.7684833312418109
             },
             "New York": {
-                "DEM": 0.9999,
-                "REP": 0.0001,
-                "dem_cond": 0.3288328832883288,
-                "rep_cond": 1.0,
+                "DEM": 1.0,
+                "REP": 0.0,
+                "dem_cond": 0.3278,
+                "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 7.116603980204065e-08,
-                "normed_value": 1.138091002602254e-06
+                "raw_value": 7.233351594754044e-08,
+                "normed_value": 1.1403153905458473e-06
             },
             "Illinois": {
-                "DEM": 0.9968,
-                "REP": 0.0032,
-                "dem_cond": 0.32985553772070625,
+                "DEM": 0.9977,
+                "REP": 0.0023,
+                "dem_cond": 0.32855567805953695,
                 "rep_cond": 1.0,
-                "tipping_point": 0.0,
-                "raw_value": 0.00010255134223570228,
-                "normed_value": 0.00164000638827019
+                "tipping_point": 0.0001,
+                "raw_value": 0.0001262803853790259,
+                "normed_value": 0.0019907710151432292
             },
             "Pennsylvania": {
-                "DEM": 0.3897,
-                "REP": 0.6103,
-                "dem_cond": 0.6802668719527842,
-                "rep_cond": 0.8956251024086515,
-                "tipping_point": 0.2078,
-                "raw_value": 0.29404372842454174,
-                "normed_value": 4.702362568192191
+                "DEM": 0.3946,
+                "REP": 0.6054,
+                "dem_cond": 0.6710593005575266,
+                "rep_cond": 0.8959365708622399,
+                "tipping_point": 0.2045,
+                "raw_value": 0.2938701534454153,
+                "normed_value": 4.6327716053359
             },
             "Ohio": {
-                "DEM": 0.0157,
-                "REP": 0.9843,
-                "dem_cond": 0.9808917197452229,
-                "rep_cond": 0.6816011378644722,
-                "tipping_point": 0.0059,
-                "raw_value": 0.008852661275761963,
-                "normed_value": 0.1415722186460793
+                "DEM": 0.0133,
+                "REP": 0.9867,
+                "dem_cond": 0.9774436090225563,
+                "rep_cond": 0.6809567244349853,
+                "tipping_point": 0.0061,
+                "raw_value": 0.009051119347223283,
+                "normed_value": 0.1426880825313586
             },
             "Georgia": {
-                "DEM": 0.2926,
-                "REP": 0.7074,
-                "dem_cond": 0.7200956937799043,
-                "rep_cond": 0.8330506078597681,
-                "tipping_point": 0.141,
-                "raw_value": 0.27242222316249737,
-                "normed_value": 4.35659033371211
+                "DEM": 0.2923,
+                "REP": 0.7077,
+                "dem_cond": 0.708176530961341,
+                "rep_cond": 0.8293062031934435,
+                "tipping_point": 0.1416,
+                "raw_value": 0.2796308211231585,
+                "normed_value": 4.408292958259731
             },
             "North Carolina": {
-                "DEM": 0.2461,
-                "REP": 0.7539,
-                "dem_cond": 0.744006501422186,
-                "rep_cond": 0.8067382942034753,
-                "tipping_point": 0.1239,
-                "raw_value": 0.22112542140019095,
-                "normed_value": 3.5362492172140367
+                "DEM": 0.2434,
+                "REP": 0.7566,
+                "dem_cond": 0.7428101889893179,
+                "rep_cond": 0.8057097541633624,
+                "tipping_point": 0.1287,
+                "raw_value": 0.23129530390452888,
+                "normed_value": 3.646298556738159
             },
             "Michigan": {
-                "DEM": 0.4468,
-                "REP": 0.5532,
-                "dem_cond": 0.6081020590868398,
-                "rep_cond": 0.8967823571945047,
-                "tipping_point": 0.1422,
-                "raw_value": 0.24653688953837802,
-                "normed_value": 3.94263073473885
+                "DEM": 0.4577,
+                "REP": 0.5423,
+                "dem_cond": 0.5971160148568931,
+                "rep_cond": 0.8995021205974553,
+                "tipping_point": 0.1281,
+                "raw_value": 0.24570788254126347,
+                "normed_value": 3.8735083781000856
             },
             "New Jersey": {
-                "DEM": 0.9957,
-                "REP": 0.0043,
-                "dem_cond": 0.33021994576679725,
+                "DEM": 0.9941,
+                "REP": 0.0059,
+                "dem_cond": 0.3297454984408007,
                 "rep_cond": 1.0,
-                "tipping_point": 0.0,
-                "raw_value": 0.0002655252822970859,
-                "normed_value": 0.004246294097385925
+                "tipping_point": 0.0001,
+                "raw_value": 0.00023487552275321496,
+                "normed_value": 0.003702739593803742
             },
             "Virginia": {
-                "DEM": 0.9084,
-                "REP": 0.0916,
-                "dem_cond": 0.36030383091149276,
-                "rep_cond": 0.9836244541484717,
-                "tipping_point": 0.0117,
-                "raw_value": 0.026132034942839128,
-                "normed_value": 0.41790485926800325
+                "DEM": 0.9065,
+                "REP": 0.0935,
+                "dem_cond": 0.35962493105350246,
+                "rep_cond": 0.9807486631016042,
+                "tipping_point": 0.0126,
+                "raw_value": 0.029924945779007662,
+                "normed_value": 0.4717574665912911
             },
             "Washington": {
-                "DEM": 0.9991,
-                "REP": 0.0009,
-                "dem_cond": 0.3290961865679111,
+                "DEM": 0.9995,
+                "REP": 0.0005,
+                "dem_cond": 0.3279639819909955,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 2.0479382575934326e-06,
-                "normed_value": 3.2750734919848525e-05
+                "raw_value": 1.2907156108056253e-05,
+                "normed_value": 0.0002034773032306174
             },
             "Arizona": {
-                "DEM": 0.2547,
-                "REP": 0.7453,
-                "dem_cond": 0.7078916372202592,
-                "rep_cond": 0.8007513752851201,
-                "tipping_point": 0.0802,
-                "raw_value": 0.25277975656404683,
-                "normed_value": 4.0424669882681945
+                "DEM": 0.269,
+                "REP": 0.731,
+                "dem_cond": 0.6914498141263941,
+                "rep_cond": 0.8060191518467852,
+                "tipping_point": 0.0843,
+                "raw_value": 0.25131134996742543,
+                "normed_value": 3.961845299965033
             },
             "Indiana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 2.811679113967132e-06,
-                "normed_value": 4.496451833925026e-05
+                "raw_value": 6.08224696967499e-06,
+                "normed_value": 9.588473251668429e-05
             },
             "Massachusetts": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.3288,
+                "dem_cond": 0.3278,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.0673626468448096e-15,
-                "normed_value": 1.7069318853020853e-14
+                "raw_value": 3.567478309011158e-16,
+                "normed_value": 5.624018641862001e-15
             },
             "Tennessee": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 7.141992031122693e-11,
-                "normed_value": 1.1421510728835947e-09
+                "raw_value": 6.01870783580296e-11,
+                "normed_value": 9.488305782540043e-10
             },
             "Colorado": {
-                "DEM": 0.9836,
-                "REP": 0.0164,
-                "dem_cond": 0.3340788938592924,
-                "rep_cond": 0.9878048780487805,
-                "tipping_point": 0.001,
-                "raw_value": 0.0020740131310373797,
-                "normed_value": 0.03316772564945911
+                "DEM": 0.9802,
+                "REP": 0.0198,
+                "dem_cond": 0.33421750663129973,
+                "rep_cond": 0.98989898989899,
+                "tipping_point": 0.0006,
+                "raw_value": 0.002666859451796516,
+                "normed_value": 0.04204221013550267
             },
             "Maryland": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.3288,
+                "dem_cond": 0.3278,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 7.662885715389096e-15,
-                "normed_value": 1.2254526612570613e-13
+                "raw_value": 1.584597808857468e-14,
+                "normed_value": 2.498069180787332e-13
             },
             "Minnesota": {
-                "DEM": 0.7896,
-                "REP": 0.2104,
-                "dem_cond": 0.40602836879432624,
-                "rep_cond": 0.9610266159695817,
-                "tipping_point": 0.0292,
-                "raw_value": 0.10410520015571118,
-                "normed_value": 1.664855764784656
+                "DEM": 0.7831,
+                "REP": 0.2169,
+                "dem_cond": 0.4068445920061295,
+                "rep_cond": 0.9575841401567543,
+                "tipping_point": 0.0316,
+                "raw_value": 0.10746300242887433,
+                "normed_value": 1.6941208232264557
             },
             "Missouri": {
-                "DEM": 0.0,
-                "REP": 1.0,
-                "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "DEM": 0.0001,
+                "REP": 0.9999,
+                "dem_cond": 1.0,
+                "rep_cond": 0.6722672267226723,
                 "tipping_point": 0.0,
-                "raw_value": 3.0530715102138375e-06,
-                "normed_value": 4.882487807022823e-05
+                "raw_value": 4.66706676627203e-06,
+                "normed_value": 7.35748565871558e-05
             },
             "Wisconsin": {
-                "DEM": 0.3857,
-                "REP": 0.6143,
-                "dem_cond": 0.6142079336271714,
-                "rep_cond": 0.850398827934234,
-                "tipping_point": 0.0967,
-                "raw_value": 0.2905529069208251,
-                "normed_value": 4.646537169503132
+                "DEM": 0.386,
+                "REP": 0.614,
+                "dem_cond": 0.6124352331606218,
+                "rep_cond": 0.8511400651465798,
+                "tipping_point": 0.0995,
+                "raw_value": 0.29619552595197574,
+                "normed_value": 4.669430379947467
             },
             "Alabama": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 1.0842524397889533e-12,
-                "normed_value": 1.7339421298499262e-11
+                "raw_value": 4.1156803714373765e-13,
+                "normed_value": 6.4882421497680185e-12
             },
             "South Carolina": {
-                "DEM": 0.0009,
-                "REP": 0.9991,
+                "DEM": 0.0007,
+                "REP": 0.9993,
                 "dem_cond": 1.0,
-                "rep_cond": 0.6718046241617456,
-                "tipping_point": 0.0,
-                "raw_value": 0.00037725519995408194,
-                "normed_value": 0.006033084740235096
+                "rep_cond": 0.6726708696087261,
+                "tipping_point": 0.0001,
+                "raw_value": 0.00034972558413406436,
+                "normed_value": 0.005513315104784016
             },
             "Kentucky": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 9.156535049819796e-12,
-                "normed_value": 1.4643178381429726e-10
+                "raw_value": 5.995940695207385e-13,
+                "normed_value": 9.45241409321765e-12
             },
             "Louisiana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 3.153724734486196e-08,
-                "normed_value": 5.043452965750109e-07
+                "raw_value": 1.2457934638317272e-07,
+                "normed_value": 1.9639546642237357e-06
             },
             "Oregon": {
-                "DEM": 0.9955,
-                "REP": 0.0045,
-                "dem_cond": 0.330286288297338,
+                "DEM": 0.9957,
+                "REP": 0.0043,
+                "dem_cond": 0.32921562719694686,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 0.00039534874723736184,
-                "normed_value": 0.006322437687589472
+                "raw_value": 0.0006597474742844815,
+                "normed_value": 0.01040071381772679
             },
             "Connecticut": {
-                "DEM": 0.9991,
-                "REP": 0.0009,
-                "dem_cond": 0.3290961865679111,
+                "DEM": 0.9993,
+                "REP": 0.0007,
+                "dem_cond": 0.32802962073451414,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 3.6166681953653503e-06,
-                "normed_value": 5.783794551435766e-05
+                "raw_value": 1.0974218913318695e-05,
+                "normed_value": 0.00017300514930246728
             },
             "Oklahoma": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 5.808002397533201e-19,
-                "normed_value": 9.288187582323944e-18
+                "raw_value": 1.3743260988396794e-19,
+                "normed_value": 2.166582367256003e-18
             },
             "Arkansas": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 4.797859531705835e-13,
-                "normed_value": 7.672761867841493e-12
+                "raw_value": 9.502854587361378e-14,
+                "normed_value": 1.4980954814841754e-12
             },
             "Iowa": {
-                "DEM": 0.0089,
-                "REP": 0.9911,
-                "dem_cond": 0.9550561797752809,
-                "rep_cond": 0.676823731207749,
-                "tipping_point": 0.0016,
-                "raw_value": 0.00804536906914713,
-                "normed_value": 0.12866195977295714
+                "DEM": 0.007,
+                "REP": 0.993,
+                "dem_cond": 0.9,
+                "rep_cond": 0.676233635448137,
+                "tipping_point": 0.0019,
+                "raw_value": 0.003831025072753374,
+                "normed_value": 0.06039491921277528
             },
             "Kansas": {
                 "DEM": 0.0002,
                 "REP": 0.9998,
                 "dem_cond": 1.0,
-                "rep_cond": 0.6713342668533707,
-                "tipping_point": 0.0,
-                "raw_value": 5.886468547112294e-05,
-                "normed_value": 0.0009413671056033054
+                "rep_cond": 0.6723344668933787,
+                "tipping_point": 0.0001,
+                "raw_value": 2.189714594163172e-05,
+                "normed_value": 0.00034520169798438004
             },
             "Mississippi": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 2.813780288241627e-06,
-                "normed_value": 4.499812042731577e-05
+                "raw_value": 3.965013517891854e-06,
+                "normed_value": 6.250720539360362e-05
             },
             "Nevada": {
-                "DEM": 0.4123,
-                "REP": 0.5877,
-                "dem_cond": 0.5779772010671841,
-                "rep_cond": 0.8460098689807725,
-                "tipping_point": 0.0445,
-                "raw_value": 0.29899665025456185,
-                "normed_value": 4.781569951194225
+                "DEM": 0.4093,
+                "REP": 0.5907,
+                "dem_cond": 0.5719521133642804,
+                "rep_cond": 0.8413746402573218,
+                "tipping_point": 0.0461,
+                "raw_value": 0.36451752660391695,
+                "normed_value": 5.746505479031478
             },
             "Utah": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 1.2331974192007295e-08,
-                "normed_value": 1.9721357140690945e-07
+                "raw_value": 2.760040667248772e-08,
+                "normed_value": 4.3511183027226027e-07
             },
             "New Mexico": {
-                "DEM": 0.9318,
-                "REP": 0.0682,
-                "dem_cond": 0.3508263575874651,
-                "rep_cond": 0.9721407624633431,
+                "DEM": 0.9285,
+                "REP": 0.0715,
+                "dem_cond": 0.3511039310716209,
+                "rep_cond": 0.9748251748251748,
                 "tipping_point": 0.003,
-                "raw_value": 0.04156921872781828,
-                "normed_value": 0.6647771036709917
+                "raw_value": 0.039090905331003734,
+                "normed_value": 0.6162559692472682
             },
             "Hawaii": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.3288,
+                "dem_cond": 0.3278,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 5.9322220067830675e-12,
-                "normed_value": 9.486840226235693e-11
+                "raw_value": 2.430894966338291e-10,
+                "normed_value": 3.8322303383211095e-09
             },
             "Idaho": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 1.5685978838185915e-17,
-                "normed_value": 2.508509878083289e-16
+                "raw_value": 9.727965226133696e-17,
+                "normed_value": 1.5335834738214828e-15
             },
             "Montana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 6.1006239616519186e-06,
-                "normed_value": 9.756149506603116e-05
+                "raw_value": 1.3906764961155844e-06,
+                "normed_value": 2.1923582602303955e-05
             },
             "New Hampshire": {
-                "DEM": 0.8022,
-                "REP": 0.1978,
-                "dem_cond": 0.39790575916230364,
-                "rep_cond": 0.9514661274014156,
-                "tipping_point": 0.0114,
-                "raw_value": 0.16078169222126665,
-                "normed_value": 2.5712291678613455
+                "DEM": 0.7897,
+                "REP": 0.2103,
+                "dem_cond": 0.398125870583766,
+                "rep_cond": 0.9362815026153115,
+                "tipping_point": 0.0128,
+                "raw_value": 0.16155164503175162,
+                "normed_value": 2.5468114577937917
             },
             "Rhode Island": {
-                "DEM": 0.9999,
-                "REP": 0.0001,
-                "dem_cond": 0.3288328832883288,
+                "DEM": 0.9998,
+                "REP": 0.0002,
+                "dem_cond": 0.32786557311462294,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 5.863300862411401e-06,
-                "normed_value": 9.376621174400527e-05
+                "raw_value": 7.918310784555811e-06,
+                "normed_value": 0.00012482970772916205
             },
             "West Virginia": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 6.854769413358483e-25,
-                "normed_value": 1.0962182827591764e-23
+                "raw_value": 8.457046213175928e-27,
+                "normed_value": 1.3332270426942937e-25
             },
             "Alaska": {
-                "DEM": 0.0033,
-                "REP": 0.9967,
-                "dem_cond": 0.9696969696969697,
-                "rep_cond": 0.6733219624761714,
-                "tipping_point": 0.0005,
-                "raw_value": 0.0046423466825101555,
-                "normed_value": 0.07424064912171396
+                "DEM": 0.0021,
+                "REP": 0.9979,
+                "dem_cond": 0.9523809523809523,
+                "rep_cond": 0.6735143801984167,
+                "tipping_point": 0.0002,
+                "raw_value": 0.004869325244613439,
+                "normed_value": 0.07676339861639107
             },
             "Delaware": {
                 "DEM": 0.9993,
                 "REP": 0.0007,
-                "dem_cond": 0.3290303212248574,
+                "dem_cond": 0.32802962073451414,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 6.682179486914021e-05,
-                "normed_value": 0.0010686176121341693
+                "raw_value": 2.578913497374828e-05,
+                "normed_value": 0.00040655769506292463
             },
             "District of Columbia": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.3288,
+                "dem_cond": 0.3278,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 9.620978457070378e-108,
-                "normed_value": 1.5385918689138496e-106
+                "raw_value": 4.4193246134989885e-112,
+                "normed_value": 6.96692785713029e-111
             },
             "North Dakota": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 2.1054904731633454e-19,
-                "normed_value": 3.3671112938663966e-18
+                "raw_value": 2.6618295375790126e-17,
+                "normed_value": 4.196291510165551e-16
             },
             "South Dakota": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 1.5571107616546627e-12,
-                "normed_value": 2.49013961269136e-11
+                "raw_value": 7.26636391519601e-12,
+                "normed_value": 1.1455196802287804e-10
             },
             "Vermont": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.3288,
+                "dem_cond": 0.3278,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.2788667296225063e-13,
-                "normed_value": 2.045170312355935e-12
+                "raw_value": 8.607894563026962e-17,
+                "normed_value": 1.3570078160633543e-15
             },
             "Wyoming": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 1.1871079925196428e-31,
-                "normed_value": 1.8984292636796253e-30
+                "raw_value": 1.0387638517699419e-30,
+                "normed_value": 1.637578917323771e-29
             },
             "Nebraska": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 2.4683009448954075e-07,
-                "normed_value": 3.947319683537532e-06
+                "raw_value": 1.7565783569477955e-07,
+                "normed_value": 2.769191168005733e-06
             },
             "Maine": {
-                "DEM": 0.8739,
-                "REP": 0.1261,
-                "dem_cond": 0.3716672388145097,
-                "rep_cond": 0.9682791435368755,
-                "tipping_point": 0.0029,
-                "raw_value": 0.05143306229316432,
-                "normed_value": 0.8225202019805673
+                "DEM": 0.8729,
+                "REP": 0.1271,
+                "dem_cond": 0.3694581280788177,
+                "rep_cond": 0.9583005507474429,
+                "tipping_point": 0.0031,
+                "raw_value": 0.062282826287874245,
+                "normed_value": 0.981869392803537
             },
             "ME-1": {
-                "DEM": 0.9999,
-                "REP": 0.0001,
-                "dem_cond": 0.3288328832883288,
+                "DEM": 0.9998,
+                "REP": 0.0002,
+                "dem_cond": 0.32786557311462294,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 7.402200704435773e-07,
-                "normed_value": 1.1837637789889854e-05
+                "raw_value": 2.397412448618277e-07,
+                "normed_value": 3.779446190101291e-06
             },
             "ME-2": {
-                "DEM": 0.0167,
-                "REP": 0.9833,
-                "dem_cond": 0.9341317365269461,
-                "rep_cond": 0.6814807281602766,
-                "tipping_point": 0.0001,
-                "raw_value": 0.007653297754709784,
-                "normed_value": 0.12239193496083055
+                "DEM": 0.0119,
+                "REP": 0.9881,
+                "dem_cond": 0.9159663865546218,
+                "rep_cond": 0.6792834733326586,
+                "tipping_point": 0.0004,
+                "raw_value": 0.008776449403061706,
+                "normed_value": 0.13835799625606998
             },
             "NE-1": {
-                "DEM": 0.0001,
-                "REP": 0.9999,
-                "dem_cond": 1.0,
-                "rep_cond": 0.6712671267126713,
+                "DEM": 0.0,
+                "REP": 1.0,
+                "dem_cond": 1,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 0.00012462998151912486,
-                "normed_value": 0.001993089133749072
+                "raw_value": 2.7564747182579516e-05,
+                "normed_value": 0.00043454966950033224
             },
             "NE-2": {
-                "DEM": 0.7499,
-                "REP": 0.2501,
-                "dem_cond": 0.4137885051340179,
-                "rep_cond": 0.9260295881647341,
-                "tipping_point": 0.0033,
-                "raw_value": 0.1128744788166337,
-                "normed_value": 1.8050945243259968
+                "DEM": 0.7435,
+                "REP": 0.2565,
+                "dem_cond": 0.4126429051782112,
+                "rep_cond": 0.9181286549707602,
+                "tipping_point": 0.004,
+                "raw_value": 0.14426237955958665,
+                "normed_value": 2.2742515628283515
             },
             "NE-3": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.6712,
+                "rep_cond": 0.6722,
                 "tipping_point": 0.0,
-                "raw_value": 1.2974574806321435e-34,
-                "normed_value": 2.074900737871449e-33
+                "raw_value": 4.839868585532951e-37,
+                "normed_value": 7.62990235440124e-36
             }
         },
         "manifold": {
-            "Will Trump win the popular vote in the 2024 Election?": 0.3874,
-            "Will Kamala Harris flip a state?": 0.2916,
-            "If Trump is elected President in 2024, will he have won the popular vote?": 0.570321811680572,
-            "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": 0.4453,
-            "Will Kamala Harris win all six swing states?": 0.051,
-            "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": 0.0368,
-            "Will the 2024 presidential election feature an upset in a state?": 0.503,
-            "Kamala Harris wins a non-swing Trump state?": 0.1057,
-            "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": 0.8117,
-            "Will Pennsylvania decide the election [read description]?": 0.2005,
-            "Someone sweeps seven swing states?": 0.2542,
-            "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": 0.4095,
-            "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": 0.0297,
-            "Will Kamala Harris win the New York State Presidential Election by at least 20%?": 0.4241,
-            "Will Texas be closer than Florida in the 2024 election?": 0.3989,
-            "Will both Kamala Harris and Donald Trump flip a state?": 0.2502
+            "Will Trump win the popular vote in the 2024 Election?": 0.3968,
+            "Will Kamala Harris flip a state?": 0.287,
+            "If Trump is elected President in 2024, will he have won the popular vote?": 0.5842011306158881,
+            "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": 0.4585,
+            "Will Kamala Harris win all six swing states?": 0.0516,
+            "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": 0.0352,
+            "Will the 2024 presidential election feature an upset in a state?": 0.5075,
+            "Kamala Harris wins a non-swing Trump state?": 0.0957,
+            "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": 0.8072,
+            "Will Pennsylvania decide the election [read description]?": 0.2054,
+            "Someone sweeps seven swing states?": 0.2442,
+            "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": 0.4167,
+            "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": 0.0264,
+            "Will Kamala Harris win the New York State Presidential Election by at least 20%?": 0.4303,
+            "Will Texas be closer than Florida in the 2024 election?": 0.4006,
+            "Will both Kamala Harris and Donald Trump flip a state?": 0.2469
         }
     },
     "3%": {
         "odds": {
-            "DEM": 0.1965,
-            "REP": 0.8035
+            "DEM": 0.1908,
+            "REP": 0.8092
         },
         "ec_votes": {
-            "DEM": 241.7899,
-            "REP": 296.2101
+            "DEM": 241.2464,
+            "REP": 296.7536
         },
         "state": {
             "California": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.1965,
+                "dem_cond": 0.1908,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 3.3340362316473103e-12,
-                "normed_value": 6.896478067291397e-11
+                "raw_value": 2.815739409405875e-11,
+                "normed_value": 6.06202851550857e-10
             },
             "Texas": {
-                "DEM": 0.0168,
-                "REP": 0.9832,
-                "dem_cond": 0.9821428571428571,
-                "rep_cond": 0.8169243287225386,
-                "tipping_point": 0.0359,
-                "raw_value": 0.021432225433389684,
-                "normed_value": 0.4433271337353976
+                "DEM": 0.0175,
+                "REP": 0.9825,
+                "dem_cond": 0.9771428571428571,
+                "rep_cond": 0.823206106870229,
+                "tipping_point": 0.0372,
+                "raw_value": 0.022184610228782143,
+                "normed_value": 0.4776142968453771
             },
             "Florida": {
-                "DEM": 0.0379,
-                "REP": 0.9621,
-                "dem_cond": 0.9234828496042217,
-                "rep_cond": 0.8321380313896685,
-                "tipping_point": 0.062,
-                "raw_value": 0.04550713732538535,
-                "normed_value": 0.9413184280684118
+                "DEM": 0.031,
+                "REP": 0.969,
+                "dem_cond": 0.9161290322580645,
+                "rep_cond": 0.8324045407636739,
+                "tipping_point": 0.0588,
+                "raw_value": 0.038595798960747774,
+                "normed_value": 0.8309321278003378
             },
             "New York": {
-                "DEM": 0.9996,
-                "REP": 0.0004,
-                "dem_cond": 0.19657863145258103,
+                "DEM": 0.9998,
+                "REP": 0.0002,
+                "dem_cond": 0.1908381676335267,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 1.980944380556266e-07,
-                "normed_value": 4.097597783537108e-06
+                "raw_value": 1.5529999384573299e-07,
+                "normed_value": 3.3434663307489185e-06
             },
             "Illinois": {
-                "DEM": 0.9927,
-                "REP": 0.0073,
-                "dem_cond": 0.1979449984889695,
-                "rep_cond": 1.0,
-                "tipping_point": 0.0,
-                "raw_value": 0.00012427293091657484,
-                "normed_value": 0.002570594567296351
-            },
-            "Pennsylvania": {
-                "DEM": 0.2754,
-                "REP": 0.7246,
-                "dem_cond": 0.5490196078431373,
-                "rep_cond": 0.9374827491029534,
-                "tipping_point": 0.1947,
-                "raw_value": 0.2206892528406752,
-                "normed_value": 4.564973162126224
-            },
-            "Ohio": {
-                "DEM": 0.0061,
-                "REP": 0.9939,
-                "dem_cond": 0.9344262295081968,
-                "rep_cond": 0.8080289767582252,
-                "tipping_point": 0.0068,
-                "raw_value": 0.0074743775994123175,
-                "normed_value": 0.15460804142351037
-            },
-            "Georgia": {
-                "DEM": 0.2019,
-                "REP": 0.7981,
-                "dem_cond": 0.5973254086181278,
-                "rep_cond": 0.9048991354466859,
-                "tipping_point": 0.147,
-                "raw_value": 0.22001360697636888,
-                "normed_value": 4.550997378539305
-            },
-            "North Carolina": {
-                "DEM": 0.1673,
-                "REP": 0.8327,
-                "dem_cond": 0.6545128511655708,
-                "rep_cond": 0.895520595652696,
-                "tipping_point": 0.1314,
-                "raw_value": 0.17542798926740677,
-                "normed_value": 3.6287406504095943
-            },
-            "Michigan": {
-                "DEM": 0.3257,
-                "REP": 0.6743,
-                "dem_cond": 0.4783543137856924,
-                "rep_cond": 0.9396411092985318,
-                "tipping_point": 0.1392,
-                "raw_value": 0.18264207965144175,
-                "normed_value": 3.77796463195095
-            },
-            "New Jersey": {
-                "DEM": 0.9856,
-                "REP": 0.0144,
-                "dem_cond": 0.19937094155844157,
+                "DEM": 0.9926,
+                "REP": 0.0074,
+                "dem_cond": 0.1922224461011485,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0002,
-                "raw_value": 0.00029990276620834135,
-                "normed_value": 0.006203510417323615
+                "raw_value": 0.00010037546989906955,
+                "normed_value": 0.002160991740759567
+            },
+            "Pennsylvania": {
+                "DEM": 0.2733,
+                "REP": 0.7267,
+                "dem_cond": 0.552872301500183,
+                "rep_cond": 0.9453694784642906,
+                "tipping_point": 0.204,
+                "raw_value": 0.2106365005782243,
+                "normed_value": 4.534810531992935
+            },
+            "Ohio": {
+                "DEM": 0.005,
+                "REP": 0.995,
+                "dem_cond": 0.92,
+                "rep_cond": 0.8128643216080402,
+                "tipping_point": 0.0083,
+                "raw_value": 0.006228339691031779,
+                "normed_value": 0.1340904370808772
+            },
+            "Georgia": {
+                "DEM": 0.1944,
+                "REP": 0.8056,
+                "dem_cond": 0.5864197530864198,
+                "rep_cond": 0.9046673286991063,
+                "tipping_point": 0.1395,
+                "raw_value": 0.20520861136027407,
+                "normed_value": 4.4179530589316105
+            },
+            "North Carolina": {
+                "DEM": 0.1527,
+                "REP": 0.8473,
+                "dem_cond": 0.6679764243614931,
+                "rep_cond": 0.8951965065502183,
+                "tipping_point": 0.1283,
+                "raw_value": 0.17060374247844598,
+                "normed_value": 3.6729419927927167
+            },
+            "Michigan": {
+                "DEM": 0.3393,
+                "REP": 0.6607,
+                "dem_cond": 0.4585912172119069,
+                "rep_cond": 0.9467231723929166,
+                "tipping_point": 0.1322,
+                "raw_value": 0.17197798973304143,
+                "normed_value": 3.7025282748786528
+            },
+            "New Jersey": {
+                "DEM": 0.987,
+                "REP": 0.013,
+                "dem_cond": 0.19331306990881458,
+                "rep_cond": 1.0,
+                "tipping_point": 0.0003,
+                "raw_value": 0.0001465742177926248,
+                "normed_value": 0.0031556083809784713
             },
             "Virginia": {
-                "DEM": 0.8411,
-                "REP": 0.1589,
-                "dem_cond": 0.2317203661871359,
-                "rep_cond": 0.9899307740717432,
+                "DEM": 0.8458,
+                "REP": 0.1542,
+                "dem_cond": 0.22369354457318516,
+                "rep_cond": 0.9896238651102465,
                 "tipping_point": 0.0123,
-                "raw_value": 0.023336457591728695,
-                "normed_value": 0.48271631370398876
+                "raw_value": 0.02259970440620029,
+                "normed_value": 0.4865508935052979
             },
             "Washington": {
-                "DEM": 0.9986,
-                "REP": 0.0014,
-                "dem_cond": 0.19677548567995193,
+                "DEM": 0.9987,
+                "REP": 0.0013,
+                "dem_cond": 0.19104836287173324,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 5.807753523138336e-06,
-                "normed_value": 0.00012013380182364758
+                "raw_value": 3.77936858444525e-06,
+                "normed_value": 8.136633685983937e-05
             },
             "Arizona": {
-                "DEM": 0.1717,
-                "REP": 0.8283,
-                "dem_cond": 0.5812463599301106,
-                "rep_cond": 0.8832548593504769,
-                "tipping_point": 0.0771,
-                "raw_value": 0.17691280427831985,
-                "normed_value": 3.659454156338376
+                "DEM": 0.173,
+                "REP": 0.827,
+                "dem_cond": 0.5664739884393064,
+                "rep_cond": 0.8877871825876663,
+                "tipping_point": 0.0853,
+                "raw_value": 0.1740581226739534,
+                "normed_value": 3.7473116279181227
             },
             "Indiana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 5.170564172522014e-06,
-                "normed_value": 0.00010695349400477931
+                "raw_value": 1.364849054269061e-06,
+                "normed_value": 2.9383947458723547e-05
             },
             "Massachusetts": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.1965,
+                "dem_cond": 0.1908,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.8601068184722643e-15,
-                "normed_value": 3.847644412092932e-14
+                "raw_value": 6.443295672030702e-14,
+                "normed_value": 1.3871824206184145e-12
             },
             "Tennessee": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 8.970907411925865e-11,
-                "normed_value": 1.8556386887097634e-09
+                "raw_value": 5.746344650578983e-10,
+                "normed_value": 1.2371352624247304e-08
             },
             "Colorado": {
-                "DEM": 0.9626,
-                "REP": 0.0374,
-                "dem_cond": 0.20413463536255974,
-                "rep_cond": 1.0,
-                "tipping_point": 0.0006,
-                "raw_value": 0.0016458411939089994,
-                "normed_value": 0.034044344174478096
+                "DEM": 0.9609,
+                "REP": 0.0391,
+                "dem_cond": 0.19845977729212197,
+                "rep_cond": 0.9974424552429667,
+                "tipping_point": 0.0008,
+                "raw_value": 0.002413517910511252,
+                "normed_value": 0.05196082544903185
             },
             "Maryland": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.1965,
+                "dem_cond": 0.1908,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 2.1684959202388627e-15,
-                "normed_value": 4.485549500327146e-14
+                "raw_value": 3.26283880693149e-13,
+                "normed_value": 7.0245924829031456e-12
             },
             "Minnesota": {
-                "DEM": 0.677,
-                "REP": 0.323,
-                "dem_cond": 0.28050221565731165,
-                "rep_cond": 0.9795665634674923,
-                "tipping_point": 0.0311,
-                "raw_value": 0.0849115620985219,
-                "normed_value": 1.756401805455407
+                "DEM": 0.6764,
+                "REP": 0.3236,
+                "dem_cond": 0.27010644589000593,
+                "rep_cond": 0.9749690976514215,
+                "tipping_point": 0.0314,
+                "raw_value": 0.08158860243221225,
+                "normed_value": 1.75652772707728
             },
             "Missouri": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 6.042640305343191e-06,
-                "normed_value": 0.00012499245190787916
+                "raw_value": 3.78327415320664e-06,
+                "normed_value": 8.145042017068035e-05
             },
             "Wisconsin": {
-                "DEM": 0.2857,
-                "REP": 0.7143,
-                "dem_cond": 0.48442422121106055,
-                "rep_cond": 0.9186616267674647,
-                "tipping_point": 0.0986,
-                "raw_value": 0.23398750398001822,
-                "normed_value": 4.840048449087034
+                "DEM": 0.2773,
+                "REP": 0.7227,
+                "dem_cond": 0.48070681572304363,
+                "rep_cond": 0.9204372492043725,
+                "tipping_point": 0.0959,
+                "raw_value": 0.22835217626720478,
+                "normed_value": 4.916212769854008
             },
             "Alabama": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 1.848516147099185e-12,
-                "normed_value": 3.823669024497901e-11
+                "raw_value": 3.851397335315732e-13,
+                "normed_value": 8.291704975697306e-12
             },
             "South Carolina": {
-                "DEM": 0.0001,
-                "REP": 0.9999,
+                "DEM": 0.0002,
+                "REP": 0.9998,
                 "dem_cond": 1.0,
-                "rep_cond": 0.8035803580358036,
-                "tipping_point": 0.0001,
-                "raw_value": 0.00023267525568031959,
-                "normed_value": 0.004812904498065119
+                "rep_cond": 0.8093618723744749,
+                "tipping_point": 0.0003,
+                "raw_value": 0.0002508060379615296,
+                "normed_value": 0.005399623803629337
             },
             "Kentucky": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 3.5628718071814546e-13,
-                "normed_value": 7.369826110935026e-12
+                "raw_value": 6.105427445024558e-14,
+                "normed_value": 1.3144424923511275e-12
             },
             "Louisiana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 4.236922994708265e-08,
-                "normed_value": 8.764105869170753e-07
+                "raw_value": 7.0179380582571084e-09,
+                "normed_value": 1.5108976522157657e-07
             },
             "Oregon": {
-                "DEM": 0.9871,
-                "REP": 0.0129,
-                "dem_cond": 0.19906797690203626,
+                "DEM": 0.9875,
+                "REP": 0.0125,
+                "dem_cond": 0.1932151898734177,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0001,
-                "raw_value": 0.0003476483796555003,
-                "normed_value": 0.00719113188592719
+                "raw_value": 0.0007156932482771536,
+                "normed_value": 0.015408218761012761
             },
             "Connecticut": {
-                "DEM": 0.9987,
-                "REP": 0.0013,
-                "dem_cond": 0.19675578251727247,
+                "DEM": 0.9994,
+                "REP": 0.0006,
+                "dem_cond": 0.19091454872923755,
                 "rep_cond": 1.0,
-                "tipping_point": 0.0,
-                "raw_value": 3.8899537167467394e-06,
-                "normed_value": 8.046397407345398e-05
+                "tipping_point": 0.0001,
+                "raw_value": 1.468639314934533e-05,
+                "normed_value": 0.0003161845651053569
             },
             "Oklahoma": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 3.181496546132193e-19,
-                "normed_value": 6.580948624161513e-18
+                "raw_value": 3.286948598060064e-18,
+                "normed_value": 7.076498650368838e-17
             },
             "Arkansas": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 2.2272498143862336e-15,
-                "normed_value": 4.6070823554620464e-14
+                "raw_value": 3.794260129690469e-15,
+                "normed_value": 8.168693816127712e-14
             },
             "Iowa": {
-                "DEM": 0.0029,
-                "REP": 0.9971,
-                "dem_cond": 0.896551724137931,
-                "rep_cond": 0.8055360545582189,
-                "tipping_point": 0.0018,
-                "raw_value": 0.006190635495179506,
-                "normed_value": 0.12805374311726256
+                "DEM": 0.0027,
+                "REP": 0.9973,
+                "dem_cond": 0.7777777777777778,
+                "rep_cond": 0.8107891306527625,
+                "tipping_point": 0.0012,
+                "raw_value": 0.002785791054243413,
+                "normed_value": 0.059975524555504034
             },
             "Kansas": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 1.943913080819515e-05,
-                "normed_value": 0.0004020998272106
+                "raw_value": 4.699095259243649e-05,
+                "normed_value": 0.001011672080288024
             },
             "Mississippi": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 2.0955671034343323e-06,
-                "normed_value": 4.3346957151187425e-05
+                "raw_value": 6.365568090747924e-07,
+                "normed_value": 1.3704483857640623e-05
             },
             "Nevada": {
-                "DEM": 0.3045,
-                "REP": 0.6955,
-                "dem_cond": 0.43054187192118226,
-                "rep_cond": 0.9059669302659957,
-                "tipping_point": 0.041,
-                "raw_value": 0.23205822625163772,
-                "normed_value": 4.800141199690059
+                "DEM": 0.2933,
+                "REP": 0.7067,
+                "dem_cond": 0.4302761677463348,
+                "rep_cond": 0.9085892174897411,
+                "tipping_point": 0.0411,
+                "raw_value": 0.23288376307095676,
+                "normed_value": 5.013773674577941
             },
             "Utah": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 5.9034566797758526e-08,
-                "normed_value": 1.2211342854292615e-06
+                "raw_value": 1.3611397977994279e-08,
+                "normed_value": 2.9304090571345626e-07
             },
             "New Mexico": {
-                "DEM": 0.873,
-                "REP": 0.127,
-                "dem_cond": 0.22405498281786942,
-                "rep_cond": 0.9929133858267717,
-                "tipping_point": 0.0033,
-                "raw_value": 0.03282386401154686,
-                "normed_value": 0.6789640019225044
+                "DEM": 0.8689,
+                "REP": 0.1311,
+                "dem_cond": 0.21774657613074003,
+                "rep_cond": 0.9877955758962624,
+                "tipping_point": 0.0034,
+                "raw_value": 0.04323758706802892,
+                "normed_value": 0.9308655654447828
             },
             "Hawaii": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.1965,
+                "dem_cond": 0.1908,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 3.3523688648136566e-13,
-                "normed_value": 6.934399251634657e-12
+                "raw_value": 2.7949902715591618e-11,
+                "normed_value": 6.017357526112739e-10
             },
             "Idaho": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 2.822425467867454e-18,
-                "normed_value": 5.838207500851068e-17
+                "raw_value": 4.541732482986914e-17,
+                "normed_value": 9.777933188599838e-16
             },
             "Montana": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
-                "tipping_point": 0.0001,
-                "raw_value": 2.208291002894556e-06,
-                "normed_value": 4.567865916722368e-05
+                "rep_cond": 0.8092,
+                "tipping_point": 0.0,
+                "raw_value": 2.0297143402104603e-06,
+                "normed_value": 4.369788684134187e-05
             },
             "New Hampshire": {
-                "DEM": 0.7003,
-                "REP": 0.2997,
-                "dem_cond": 0.2684563758389262,
-                "rep_cond": 0.9716383049716383,
-                "tipping_point": 0.0107,
-                "raw_value": 0.11523532998016597,
-                "normed_value": 2.383651138046092
+                "DEM": 0.6879,
+                "REP": 0.3121,
+                "dem_cond": 0.26384648931530746,
+                "rep_cond": 0.9702018583787247,
+                "tipping_point": 0.0117,
+                "raw_value": 0.14965667160932972,
+                "normed_value": 3.2219707825280746
             },
             "Rhode Island": {
-                "DEM": 0.9993,
-                "REP": 0.0007,
-                "dem_cond": 0.1966376463524467,
+                "DEM": 0.9992,
+                "REP": 0.0008,
+                "dem_cond": 0.1909527622097678,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 1.0466639889176925e-05,
-                "normed_value": 0.00021650320338084967
+                "raw_value": 5.26547330604891e-06,
+                "normed_value": 0.0001133608075459395
             },
             "West Virginia": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 2.759431409430653e-26,
-                "normed_value": 5.707903835205412e-25
+                "raw_value": 2.2693045134813497e-28,
+                "normed_value": 4.885604337227678e-27
             },
             "Alaska": {
-                "DEM": 0.0016,
-                "REP": 0.9984,
-                "dem_cond": 0.8125,
-                "rep_cond": 0.8044871794871795,
-                "tipping_point": 0.0003,
-                "raw_value": 0.00493498865311982,
-                "normed_value": 0.10208059734178986
+                "DEM": 0.001,
+                "REP": 0.999,
+                "dem_cond": 0.8,
+                "rep_cond": 0.8098098098098098,
+                "tipping_point": 0.0004,
+                "raw_value": 0.004750678053515379,
+                "normed_value": 0.1022777382459819
             },
             "Delaware": {
-                "DEM": 0.9986,
-                "REP": 0.0014,
-                "dem_cond": 0.19677548567995193,
+                "DEM": 0.9985,
+                "REP": 0.0015,
+                "dem_cond": 0.19108662994491737,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 1.1310247498990666e-05,
-                "normed_value": 0.0002339532878258109
+                "raw_value": 7.61081858375679e-05,
+                "normed_value": 0.0016385393878061742
             },
             "District of Columbia": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.1965,
+                "dem_cond": 0.1908,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.1643728306713082e-91,
-                "normed_value": 2.4085136246126237e-90
+                "raw_value": 8.483616848483901e-95,
+                "normed_value": 1.826444843523702e-93
             },
             "North Dakota": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 5.974079214858127e-19,
-                "normed_value": 1.2357426079072322e-17
+                "raw_value": 5.737102176673245e-21,
+                "normed_value": 1.2351454426216878e-19
             },
             "South Dakota": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 1.2252552785951851e-12,
-                "normed_value": 2.5344494086345545e-11
+                "raw_value": 4.0775503194756395e-12,
+                "normed_value": 8.778591593920968e-11
             },
             "Vermont": {
                 "DEM": 1.0,
                 "REP": 0.0,
-                "dem_cond": 0.1965,
+                "dem_cond": 0.1908,
                 "rep_cond": 1,
                 "tipping_point": 0.0,
-                "raw_value": 1.3746749379436874e-20,
-                "normed_value": 2.843525055065054e-19
+                "raw_value": 1.9445088406784203e-14,
+                "normed_value": 4.186349063934971e-13
             },
             "Wyoming": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 9.288562363194413e-33,
-                "normed_value": 1.9213458452066098e-31
+                "raw_value": 8.216893521024482e-30,
+                "normed_value": 1.7690217591498718e-28
             },
             "Nebraska": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 6.686134839044377e-09,
-                "normed_value": 1.3830318289504496e-07
+                "raw_value": 2.164853355516587e-08,
+                "normed_value": 4.660730580819273e-07
             },
             "Maine": {
-                "DEM": 0.8013,
-                "REP": 0.1987,
-                "dem_cond": 0.23886184949457132,
-                "rep_cond": 0.9743331655762456,
-                "tipping_point": 0.0028,
-                "raw_value": 0.04014659042738652,
-                "normed_value": 0.8304351276416797
+                "DEM": 0.7975,
+                "REP": 0.2025,
+                "dem_cond": 0.23435736677115987,
+                "rep_cond": 0.9807407407407407,
+                "tipping_point": 0.0032,
+                "raw_value": 0.05438132304341773,
+                "normed_value": 1.1707799731007087
             },
             "ME-1": {
-                "DEM": 0.9998,
-                "REP": 0.0002,
-                "dem_cond": 0.1965393078615723,
+                "DEM": 0.9999,
+                "REP": 0.0001,
+                "dem_cond": 0.19081908190819083,
                 "rep_cond": 1.0,
                 "tipping_point": 0.0,
-                "raw_value": 1.066344580150045e-08,
-                "normed_value": 2.2057414791639195e-07
+                "raw_value": 3.242270299042663e-08,
+                "normed_value": 6.980310373228145e-07
             },
             "ME-2": {
-                "DEM": 0.005,
-                "REP": 0.995,
-                "dem_cond": 0.92,
-                "rep_cond": 0.8071356783919598,
-                "tipping_point": 0.0004,
-                "raw_value": 0.0010502178047328034,
-                "normed_value": 0.021723831275343126
+                "DEM": 0.0048,
+                "REP": 0.9952,
+                "dem_cond": 0.7916666666666666,
+                "rep_cond": 0.8120980707395499,
+                "tipping_point": 0.0008,
+                "raw_value": 0.005231783698079071,
+                "normed_value": 0.11263550120719504
             },
             "NE-1": {
-                "DEM": 0.0,
-                "REP": 1.0,
-                "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "DEM": 0.0001,
+                "REP": 0.9999,
+                "dem_cond": 1.0,
+                "rep_cond": 0.8092809280928093,
                 "tipping_point": 0.0,
-                "raw_value": 2.809863968045943e-06,
-                "normed_value": 5.812223947586402e-05
+                "raw_value": 3.264530087849201e-06,
+                "normed_value": 7.028233655490584e-05
             },
             "NE-2": {
-                "DEM": 0.6398,
-                "REP": 0.3602,
-                "dem_cond": 0.28665207877461707,
-                "rep_cond": 0.9636313159355914,
-                "tipping_point": 0.0025,
-                "raw_value": 0.07838210471501902,
-                "normed_value": 1.621339507064029
+                "DEM": 0.6302,
+                "REP": 0.3698,
+                "dem_cond": 0.2756267851475722,
+                "rep_cond": 0.9537587885343429,
+                "tipping_point": 0.0032,
+                "raw_value": 0.09026181342616676,
+                "normed_value": 1.9432539993691773
             },
             "NE-3": {
                 "DEM": 0.0,
                 "REP": 1.0,
                 "dem_cond": 1,
-                "rep_cond": 0.8035,
+                "rep_cond": 0.8092,
                 "tipping_point": 0.0,
-                "raw_value": 6.945206503326909e-52,
-                "normed_value": 1.4366209901485683e-50
+                "raw_value": 7.211170453438995e-50,
+                "normed_value": 1.5524988133814497e-48
             }
         },
         "manifold": {
-            "Will Trump win the popular vote in the 2024 Election?": 0.5618,
-            "Will Kamala Harris flip a state?": 0.194,
-            "If Trump is elected President in 2024, will he have won the popular vote?": 0.6947106409458619,
-            "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": 0.5771,
-            "Will Kamala Harris win all six swing states?": 0.0217,
-            "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": 0.0166,
-            "Will the 2024 presidential election feature an upset in a state?": 0.6088,
-            "Kamala Harris wins a non-swing Trump state?": 0.0566,
-            "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": 0.8305,
-            "Will Pennsylvania decide the election [read description]?": 0.159,
-            "Someone sweeps seven swing states?": 0.3532,
-            "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": 0.508,
-            "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": 0.0214,
-            "Will Kamala Harris win the New York State Presidential Election by at least 20%?": 0.319,
-            "Will Texas be closer than Florida in the 2024 election?": 0.3971,
-            "Will both Kamala Harris and Donald Trump flip a state?": 0.1769
+            "Will Trump win the popular vote in the 2024 Election?": 0.5809,
+            "Will Kamala Harris flip a state?": 0.1792,
+            "If Trump is elected President in 2024, will he have won the popular vote?": 0.7102076124567474,
+            "Will Trump win Florida by >8 points? [Nate Silver $100k Twitter Bet] ": 0.5776,
+            "Will Kamala Harris win all six swing states?": 0.02,
+            "[Subsidized 10K] Will all seven states (NC, GA, PA, MI, WI, AZ, NV) swing blue in November?": 0.0133,
+            "Will the 2024 presidential election feature an upset in a state?": 0.6176,
+            "Kamala Harris wins a non-swing Trump state?": 0.0519,
+            "Will the 2024 US Presidential candidate who wins Pennsylvania also win the election?": 0.8381,
+            "Will Pennsylvania decide the election [read description]?": 0.1514,
+            "Someone sweeps seven swing states?": 0.3493,
+            "Will one or more of Texas, Florida, New Hampshire, or Minnesota flip in the 2024 presidential election?": 0.5156,
+            "Will BuccoCapital's six way parlay bet Pelosi meme actually resolve YES?": 0.0175,
+            "Will Kamala Harris win the New York State Presidential Election by at least 20%?": 0.3125,
+            "Will Texas be closer than Florida in the 2024 election?": 0.4015,
+            "Will both Kamala Harris and Donald Trump flip a state?": 0.1644
         }
     },
-    "time": "1:56 PM ET, October 22, 2024"
+    "time": "1:55 AM ET, October 25, 2024"
 }
