@@ -123,11 +123,12 @@ ALL_MANIFOLD_MARKETS = [
 ]
 
 def get_manifold_data():
-    r = requests.get("https://api.manifold.markets/search-markets-full?term=&filter=open&sort=most-popular&contractType=ALL&offset=0&limit=1000&topicSlug=us-politics&isPrizeMarket=0&marketTier=00000&forYou=1&token=MANA")
-    market_info = r.json()
-
+    market_info = [] # = r.json()
+    for page in range(3):
+        r = requests.get(f"https://api.manifold.markets/search-markets-full?term=&sort=most-popular&contractType=ALL&offset={page*1000}&limit=1000&topicSlug=us-politics&isPrizeMarket=0&marketTier=00000&forYou=1&token=MANA")
+        market_info += r.json()
+    
     output = []
-
     for question in ALL_MANIFOLD_MARKETS:
         manifold_data = [m for m in market_info if m["question"] == question]
         if not manifold_data:
